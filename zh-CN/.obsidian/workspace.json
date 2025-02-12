@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "9d7e618e698eb5c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdcd48f5b444cbbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "125827f5f6b5cda2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f1a47820c0aad0a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5761f5989f1304d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd4bcebd4a84e2f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "9668a6f478630b6c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c3c6b48b903353c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 368.5
+  },
+  "right": {
+    "id": "ab58a4d199165d6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "40e72c94e16c888c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb4cb4e1bd86468b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Website/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "index 的反向链接列表"
+            }
+          },
+          {
+            "id": "2a1b95bc2be67b8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Website/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "index 的出链列表"
+            }
+          },
+          {
+            "id": "620f067fb030e21a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "59a3623a413063e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Website/index.md"
+              },
+              "icon": "lucide-list",
+              "title": "index 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "pkmer:Open Pkmer Market": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "fd4bcebd4a84e2f8",
+  "lastOpenFiles": [
+    "AI/index.md",
+    "index.md",
+    "AI/LLM/大模型理论基础/引言.md",
+    "AI/LLM/大模型理论基础/img/pic-20250212095256550.png",
+    "AI/LLM/大模型理论基础/img",
+    "AI/LLM/学习资源.md",
+    "AI/LLM/大模型理论基础",
+    "AI/LLM/简介.md",
+    "AI/NLP/预训练语言模型/前言.md",
+    "AI/NLP/预训练语言模型",
+    "AI/书架.md",
+    "Website/vitepress/参考资料.md",
+    "Website/vitepress/网站搭建过程.md",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/分支结构程序设计.md",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/顺序结构程序设计.md",
+    "guide/analytics.md",
+    "Website/vitepress",
+    "Website",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/目录.md",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207173759712.png",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207123351203.png",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/index.md",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1",
+    "Algorithm/深入浅出程序设计竞赛（基础篇）",
+    "Algorithm/基础算法/排序.md",
+    "Algorithm/基础算法/index.md",
+    "Algorithm/基础算法",
+    "Algorithm/index.md",
+    "Algorithm",
+    "docs/Algorithm/index.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/index.md",
+    "docs/Algorithm/基础算法/index.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207173759712.png",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207123351203.png",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/顺序结构程序设计.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/分支结构程序设计.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207173759712.png",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207123351203.png",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/顺序结构程序设计.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/1.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/分支结构程序设计.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/未命名.md",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207173759712.png",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207123351203.png",
+    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207173724048.png",
+    "未命名.canvas"
+  ]
+}

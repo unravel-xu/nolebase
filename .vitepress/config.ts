@@ -39,8 +39,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '主页', link: '/zh-CN/' },
-          { text: '笔记', link: '/zh-CN/笔记/' },
-          { text: '编目 Catalog', link: '/zh-CN/编目 Catalog/' },
+          { text: 'AI', link: '/zh-CN/AI/' },
+          { text: '网站', link: '/zh-CN/Website/' },
           { text: '最近更新', link: '/zh-CN/toc' },
         ],
         socialLinks: [
@@ -54,8 +54,8 @@ export default defineConfig({
           text: '编辑本页面',
         },
         sidebar: calculateSidebar([
-          { folderName: 'zh-CN/笔记', separate: true },
-          { folderName: 'zh-CN/编目 Catalog', separate: true },
+          { folderName: 'zh-CN/AI/LLM', separate: true },
+          { folderName: 'zh-CN/AI/NLP', separate: true },
         ], 'zh-CN'),
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
