@@ -52,6 +52,7 @@ import 'virtual:uno.css'
 import '../styles/main.css'
 import '../styles/vars.css'
 import '../styles/custom.css'
+import '../styles/blur.css'
 
 import('@nolebase/vitepress-plugin-inline-link-preview/client')
 
