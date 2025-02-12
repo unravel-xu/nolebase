@@ -1,0 +1,45 @@
+/* 用于设置侧边栏样式 */
+:root {  
+    --scrollbar-color: #e0e3e6;  
+    --scrollbar-color-hover: #c1c7ce;  
+    --scrollbar-dark-color: #6e7883;  
+    --scrollbar-dark-color-hover: #555f6b;  
+}  
+  
+/* refs to https://dev.to/xtrp/how-to-create-a-beautiful-custom-scrollbar-for-your-site-in-plain-css-1mjg */  
+::-webkit-scrollbar {  
+    width: 15px;  
+}  
+  
+::-webkit-scrollbar-track {  
+    background-color: transparent;  
+}  
+  
+::-webkit-scrollbar-thumb {  
+    background-color: var(--scrollbar-color);  
+    border-radius: 15px;  
+    border: 5px solid rgba(0, 0, 0, 0);  
+    background-clip: content-box;  
+}  
+  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: var(--scrollbar-color);  
+}  
+  
+/*控制隐藏和显示*/  
+.VPSidebar::-webkit-scrollbar-thumb {  
+    visibility: hidden;  
+}  
+  
+.VPSidebar:hover::-webkit-scrollbar-thumb {  
+    visibility: visible;  
+}  
+  
+  
+.dark ::-webkit-scrollbar-thumb {  
+    background-color: var(--scrollbar-dark-color);  
+}  
+  
+.dark ::-webkit-scrollbar-thumb:hover {  
+    background-color: var(--scrollbar-dark-color-hover);  
+}

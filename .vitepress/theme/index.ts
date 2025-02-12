@@ -51,8 +51,12 @@ import 'virtual:uno.css'
 
 import '../styles/main.css'
 import '../styles/vars.css'
+import '../styles/custom.css'
 
 import('@nolebase/vitepress-plugin-inline-link-preview/client')
+
+/* lumen主题 */
+import '@theojs/lumen/theme'
 
 const ExtendedTheme: Theme = {
   extends: DefaultTheme,

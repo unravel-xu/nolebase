@@ -5,7 +5,7 @@ import UnoCSS from 'unocss/vite'
 
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
-import Inspect from 'vite-plugin-inspect'
+// import Inspect from 'vite-plugin-inspect'
 
 import { creators, githubRepoLink } from './metadata'
 
@@ -21,7 +21,7 @@ export default defineConfig(async () => {
       ],
     },
     plugins: [
-      Inspect(),
+      // Inspect(),
       GitChangelog({
         repoURL: () => githubRepoLink,
         mapAuthors: creators,

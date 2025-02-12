@@ -38,4 +38,4 @@ features:
     icon: 🗃
 ---
 
-<HomePage />
+<!-- <HomePage /> -->
