@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cdcd48f5b444cbbe",
+        "id": "3266cb6f7a75748b",
         "type": "tabs",
         "children": [
           {
-            "id": "125827f5f6b5cda2",
+            "id": "64e02e51c4161c54",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368.5
+    "width": 368.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -163,17 +164,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "pkmer:Open Pkmer Market": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "125827f5f6b5cda2",
+  "active": "64e02e51c4161c54",
   "lastOpenFiles": [
+    "Website/vitepress/参考资料.md",
+    "AI/LLM/大模型理论基础/引言.md",
+    "().md",
     "AI/LLM/学习资源.md",
     "AI/LLM/大模型理论基础/index.md",
     "AI/LLM/大模型理论基础/test.md",
     "AI/index.md",
     "index.md",
-    "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/大模型理论基础/img/pic-20250212095256550.png",
     "AI/LLM/大模型理论基础/img",
     "AI/LLM/大模型理论基础",
@@ -181,7 +185,6 @@
     "AI/NLP/预训练语言模型/前言.md",
     "AI/NLP/预训练语言模型",
     "AI/书架.md",
-    "Website/vitepress/参考资料.md",
     "Website/vitepress/网站搭建过程.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/分支结构程序设计.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/顺序结构程序设计.md",
@@ -210,7 +213,6 @@
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207173759712.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207123351203.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/顺序结构程序设计.md",
-    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/1.md",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207173759712.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207123351203.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207173724048.png",
