@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11b4d0f608f9d52b",
+        "id": "e824613c892f3484",
         "type": "tabs",
         "children": [
           {
-            "id": "579106177b3ab3f9",
+            "id": "4bddf2783513cfc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 229.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -177,15 +177,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "579106177b3ab3f9",
+  "active": "4bddf2783513cfc2",
   "lastOpenFiles": [
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
+    "AI/LLM/论文/DeepSeek-R1.md",
+    "AI/LLM/论文/img/pic-20250214180137167.png",
+    "AI/LLM/论文/img",
+    "AI/LLM/论文",
+    "AI/LLM/学习资源.md",
     "大模型理论基础/引言.md",
     "大模型理论基础",
     "大语言模型基础/引言.md",
     "大语言模型基础",
-    "AI/LLM/学习资源.md",
     "AI/LLM/大规模语言模型：从理论到实践",
     "Website/vitepress/参考资料.md",
     "().md",
@@ -209,22 +213,17 @@
     "Algorithm/深入浅出程序设计竞赛（基础篇）/目录.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207173759712.png",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207123351203.png",
-    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/index.md",
-    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1",
     "Algorithm/基础算法/排序.md",
     "Algorithm/基础算法/index.md",
     "Algorithm/index.md",
     "docs/Algorithm/index.md",
-    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/index.md",
-    "docs/Algorithm/基础算法/index.md",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207173759712.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207123351203.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207173759712.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207123351203.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207173759712.png",
     "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207123351203.png",
-    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/img/pic-20250207173724048.png",
     "未命名.canvas"
   ]
 }
