@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e824613c892f3484",
+        "id": "c396fb46c8220750",
         "type": "tabs",
         "children": [
           {
-            "id": "4bddf2783513cfc2",
+            "id": "c72479b2f00cf348",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,10 +178,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bddf2783513cfc2",
+  "active": "c72479b2f00cf348",
   "lastOpenFiles": [
-    "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
+    "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/论文/DeepSeek-R1.md",
     "AI/LLM/论文/img/pic-20250214180137167.png",
     "AI/LLM/论文/img",
