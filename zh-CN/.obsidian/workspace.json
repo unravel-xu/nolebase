@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d45fd680b494145",
+            "id": "a828f227da2deda5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -178,10 +178,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d45fd680b494145",
+  "active": "a828f227da2deda5",
   "lastOpenFiles": [
-    "Website/vitepress/参考资料.md",
+    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/LLM/大规模语言模型：从理论到实践/大语言模型基础.md",
+    "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250216162526556.png",
+    "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250216162317170.png",
+    "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250216162059927.png",
+    "Excalidraw",
+    "Website/vitepress/参考资料.md",
     "data/toc.data.ts.timestamp-1739666958338-90a68694788b8.mjs",
     "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
     "data/toc.data.ts.timestamp-1739619390446-c8b96f5381fc4.mjs",
@@ -207,7 +212,6 @@
     "index.md",
     "AI/LLM/大模型理论基础/img/pic-20250212095256550.png",
     "AI/LLM/大模型理论基础/img",
-    "AI/LLM/大模型理论基础",
     "AI/LLM/简介.md",
     "AI/NLP/预训练语言模型/前言.md",
     "AI/书架.md",
@@ -221,10 +225,6 @@
     "Algorithm/深入浅出程序设计竞赛（基础篇）/index.md",
     "Algorithm/基础算法/排序.md",
     "Algorithm/基础算法/index.md",
-    "Algorithm/index.md",
-    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207173759712.png",
-    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/img/pic-20250207123351203.png",
-    "docs/Algorithm/深入浅出程序设计竞赛（基础篇）/Ch1/img/pic-20250207173759712.png",
     "未命名.canvas"
   ]
 }
