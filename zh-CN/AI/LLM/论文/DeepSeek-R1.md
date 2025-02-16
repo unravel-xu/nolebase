@@ -5,7 +5,7 @@ DeepSeek-R1 通过在强化学习训练阶段前结合多阶段训练和冷启�
 
 如下是 Benchmark 测试结果：
 
-![[img/pic-20250214180137167.png]]
+![[pic-20250214180137167.png]]
 
 ## Introduction
 
