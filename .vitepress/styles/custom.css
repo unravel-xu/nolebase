@@ -43,3 +43,50 @@
 .dark ::-webkit-scrollbar-thumb:hover {  
     background-color: var(--scrollbar-dark-color-hover);  
 }
+
+/* mjx-container[style*="display: block;"] {
+    @apply overflow-x-auto overflow-y-hidden;
+}
+  
+mjx-container > svg {
+    @apply inline-block;
+} */
+
+/*文字加粗样式修改*/
+.vp-doc strong {
+    font-size: 18px;
+    font-weight: bolder !important;
+    color: #fdab63;
+    padding: 0 4px;
+}
+
+/*各级目录文字颜色*/
+/* docs/.vitepress/theme/global.css */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc .header-anchor:before {
+  color: unset !important;
+  background: linear-gradient(to right, #6fbef7, #ba89ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: max-content;
+}
+
+.vp-doc h3 {
+    color: unset !important;
+    background: linear-gradient(to right, #F472B6, #DB2777);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+}
+
+.vp-doc h4 {
+    color: unset !important;
+    background: linear-gradient(to right, #FB923C, #EA580C);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+}

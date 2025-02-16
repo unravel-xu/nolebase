@@ -26,6 +26,7 @@ export default defineConfig({
       },
     },
   },
+  cleanUrls: true,
   themeConfig: {
     nav: [
       { text: '主页', link: '/zh-CN/' },
