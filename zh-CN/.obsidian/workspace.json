@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "第二章 强化学习问题建模：马尔可夫决策过程"
             }
+          },
+          {
+            "id": "a5ea274293b07416",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2025-02-16 15.47.24.excalidraw"
+            }
           }
         ]
       }
@@ -180,13 +192,14 @@
   },
   "active": "919bd62188f7a277",
   "lastOpenFiles": [
-    "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
+    "AI/DRL/深度强化学习实战/img/pic-20250227125939746.png",
+    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
+    "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
     "AI/DRL/深度强化学习实战/img/pic-20250227110357192.png",
     "AI/DRL/深度强化学习实战/img",
     "AI/DRL/深度强化学习实战",
     "AI/DRL",
-    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/LLM/大规模语言模型：从理论到实践/大语言模型基础.md",
     "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250219121927651.png",
     "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250217121608255.png",
@@ -225,7 +238,6 @@
     "guide/analytics.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/目录.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/index.md",
-    "Algorithm/基础算法/排序.md",
     "未命名.canvas"
   ]
 }
