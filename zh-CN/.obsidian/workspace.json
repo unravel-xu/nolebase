@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 230.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -179,6 +179,7 @@
   },
   "active": "a5ea274293b07416",
   "lastOpenFiles": [
+    "AI/DRL/深度强化学习实战/img/pic-20250227191833915.png",
     "AI/DRL/深度强化学习实战/img/pic-20250227172814682.png",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
@@ -197,7 +198,6 @@
     "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
     "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250216223646439.png",
     "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250216195446121.png",
-    "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250216194327005.png",
     "data/toc.data.ts.timestamp-1739703078514-af1de284c1de1.mjs",
     "Excalidraw",
     "Website/vitepress/参考资料.md",
