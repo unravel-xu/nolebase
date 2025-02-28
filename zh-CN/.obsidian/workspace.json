@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
+                "file": "AI/DRL/强化学习极简入门/前言.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第三章 预测最佳状态和动作：DQN"
+              "title": "前言"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 435.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -179,13 +179,17 @@
   },
   "active": "f53d8a8c90855158",
   "lastOpenFiles": [
+    "index.md",
+    "toc.md",
+    "AI/DRL/强化学习极简入门/前言.md",
+    "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
+    "AI/DRL/强化学习极简入门",
     "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
     "AI/DRL/深度强化学习实战/未命名 1.md",
     "AI/DRL/深度强化学习实战/img/pic-20250228120330126.png",
     "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
     "AI/DRL/深度强化学习实战/img/pic-20250228113830608.png",
     "AI/DRL/深度强化学习实战/img/pic-20250228110116817.png",
-    "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/深度强化学习实战/img/pic-20250227223428337.png",
     "AI/DRL/深度强化学习实战/img/pic-20250227191833915.png",
@@ -208,7 +212,6 @@
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/论文/DeepSeek-R1.md",
     "AI/LLM/论文/img",
-    "AI/LLM/论文",
     "AI/LLM/学习资源.md",
     "大模型理论基础/引言.md",
     "大语言模型基础/引言.md",
@@ -216,15 +219,12 @@
     "AI/LLM/大模型理论基础/index.md",
     "AI/LLM/大模型理论基础/test.md",
     "AI/index.md",
-    "index.md",
     "AI/LLM/简介.md",
     "AI/NLP/预训练语言模型/前言.md",
     "AI/书架.md",
     "Website/vitepress/网站搭建过程.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/分支结构程序设计.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/顺序结构程序设计.md",
-    "guide/analytics.md",
-    "Algorithm/深入浅出程序设计竞赛（基础篇）/目录.md",
     "未命名.canvas"
   ]
 }
