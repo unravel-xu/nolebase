@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec4121fadd13aa09",
+        "id": "ae259817ad433ab2",
         "type": "tabs",
         "children": [
           {
-            "id": "f53d8a8c90855158",
+            "id": "a476b8ba0f0c560d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -177,13 +177,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f53d8a8c90855158",
+  "active": "a476b8ba0f0c560d",
   "lastOpenFiles": [
+    "AI/DRL/强化学习极简入门/img/pic-20250301125636437.png",
+    "AI/DRL/强化学习极简入门/前言.md",
+    "AI/index.md",
+    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
     "AI/DRL/强化学习极简入门/img/pic-20250228234127151.png",
     "AI/DRL/强化学习极简入门/img",
     "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
-    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
-    "AI/DRL/强化学习极简入门/前言.md",
     "index.md",
     "toc.md",
     "AI/DRL/强化学习极简入门",
@@ -203,7 +205,6 @@
     "AI/DRL/深度强化学习实战",
     "AI/DRL",
     "AI/LLM/大规模语言模型：从理论到实践/大语言模型基础.md",
-    "AI/LLM/大规模语言模型：从理论到实践/img/pic-20250219121927651.png",
     "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
     "data/toc.data.ts.timestamp-1739703078514-af1de284c1de1.mjs",
     "Excalidraw",
@@ -219,7 +220,6 @@
     "().md",
     "AI/LLM/大模型理论基础/index.md",
     "AI/LLM/大模型理论基础/test.md",
-    "AI/index.md",
     "AI/LLM/简介.md",
     "AI/NLP/预训练语言模型/前言.md",
     "AI/书架.md",
