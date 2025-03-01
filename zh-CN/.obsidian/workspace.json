@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 401.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -179,12 +179,14 @@
   },
   "active": "f53d8a8c90855158",
   "lastOpenFiles": [
+    "AI/DRL/强化学习极简入门/img/pic-20250228234127151.png",
+    "AI/DRL/强化学习极简入门/img",
+    "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
+    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
+    "AI/DRL/强化学习极简入门/前言.md",
     "index.md",
     "toc.md",
-    "AI/DRL/强化学习极简入门/前言.md",
-    "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
     "AI/DRL/强化学习极简入门",
-    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
     "AI/DRL/深度强化学习实战/未命名 1.md",
     "AI/DRL/深度强化学习实战/img/pic-20250228120330126.png",
     "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
@@ -211,7 +213,6 @@
     "AI/LLM/大规模语言模型：从理论到实践/img",
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/论文/DeepSeek-R1.md",
-    "AI/LLM/论文/img",
     "AI/LLM/学习资源.md",
     "大模型理论基础/引言.md",
     "大语言模型基础/引言.md",
@@ -224,7 +225,6 @@
     "AI/书架.md",
     "Website/vitepress/网站搭建过程.md",
     "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/分支结构程序设计.md",
-    "Algorithm/深入浅出程序设计竞赛（基础篇）/Part1/顺序结构程序设计.md",
     "未命名.canvas"
   ]
 }
