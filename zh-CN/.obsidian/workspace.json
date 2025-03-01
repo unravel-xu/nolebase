@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -179,6 +180,9 @@
   },
   "active": "93092e69a64a5fab",
   "lastOpenFiles": [
+    "AI/DRL/强化学习极简入门/img/pic-20250301230610139.png",
+    "AI/DRL/强化学习极简入门/img/pic-20250301230102904.png",
+    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/强化学习极简入门/前言.md",
     "AI/DRL/强化学习极简入门/img/pic-20250301125636437.png",
     "AI/index.md",
@@ -194,12 +198,10 @@
     "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
     "AI/DRL/深度强化学习实战/img/pic-20250228113830608.png",
     "AI/DRL/深度强化学习实战/img/pic-20250228110116817.png",
-    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/深度强化学习实战/img/pic-20250227223428337.png",
     "AI/DRL/深度强化学习实战/img/pic-20250227191833915.png",
     "AI/DRL/深度强化学习实战/img/pic-20250227172814682.png",
     "AI/DRL/深度强化学习实战/img/pic-20250227110357192.png",
-    "AI/DRL/深度强化学习实战/img/pic-20250227125939746.png",
     "AI/DRL/深度强化学习实战/img",
     "AI/DRL/深度强化学习实战",
     "AI/DRL",
