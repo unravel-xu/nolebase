@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Website/index.md",
+                "file": "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "4 强化学习智能体的组成成分和类型 的反向链接列表"
             }
           },
           {
@@ -156,8 +156,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,12 +178,13 @@
   },
   "active": "63ece8a0cc679bdc",
   "lastOpenFiles": [
-    "AI/DRL/EasyRL/第一章 强化学习基础/3 动作空间.md",
+    "data/toc.data.ts.timestamp-1741406845075-54b81ad040864.mjs",
+    "AI/DRL/EasyRL/前言和目录.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/3 动作空间.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307165833492.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",
-    "AI/DRL/EasyRL/前言和目录.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164848979.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164836267.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164808723.png",
@@ -224,7 +224,6 @@
     "大语言模型基础/引言.md",
     "().md",
     "AI/LLM/大模型理论基础/index.md",
-    "AI/LLM/大模型理论基础/test.md",
     "未命名.canvas"
   ]
 }
