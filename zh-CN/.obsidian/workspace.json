@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
+                "file": "AI/DRL/强化学习极简入门/前言.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 强化学习智能体的组成成分和类型"
+              "title": "前言"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -176,15 +177,58 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63ece8a0cc679bdc",
+  "floating": {
+    "id": "6bb31a0daf48fc84",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6e585e4dcf2dc264",
+        "type": "window",
+        "children": [
+          {
+            "id": "06be5f00adbfe918",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "758ebcb6b48271e8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4 强化学习智能体的组成成分和类型"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 659,
+        "y": 154,
+        "width": 600,
+        "height": 600,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "758ebcb6b48271e8",
   "lastOpenFiles": [
+    "AI/DRL/强化学习极简入门/前言.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
+    "AI/DRL/强化学习极简入门/三大表格求解法.md",
+    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/3 动作空间.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
+    "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
     "data/toc.data.ts.timestamp-1741406845075-54b81ad040864.mjs",
     "AI/DRL/EasyRL/前言和目录.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/3 动作空间.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307165833492.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164848979.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164836267.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164808723.png",
@@ -197,25 +241,20 @@
     "AI/DRL/EasyRL/第一章 强化学习基础/img",
     "toc.md",
     "AI/DRL/EasyRL/第一章 强化学习基础",
-    "AI/DRL/强化学习极简入门/前言.md",
     "AI/DRL/EasyRL",
-    "AI/DRL/强化学习极简入门/三大表格求解法.md",
     "AI/DRL/强化学习极简入门/img/pic-20250302111613348.png",
     "AI/DRL/强化学习极简入门/img/pic-20250301230610139.png",
     "AI/DRL/强化学习极简入门/img/pic-20250301230102904.png",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
-    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
     "AI/DRL/强化学习极简入门/img",
     "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
     "AI/DRL/强化学习极简入门",
     "AI/DRL/深度强化学习实战/未命名 1.md",
-    "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
     "AI/DRL/深度强化学习实战/img",
     "AI/DRL/深度强化学习实战",
     "AI/DRL",
     "AI/LLM/大规模语言模型：从理论到实践/大语言模型基础.md",
     "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
-    "data/toc.data.ts.timestamp-1739703078514-af1de284c1de1.mjs",
     "Website/vitepress/参考资料.md",
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/论文/DeepSeek-R1.md",
