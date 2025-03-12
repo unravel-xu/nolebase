@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eac2d638159eaa23",
+        "id": "d3acc7990c491c33",
         "type": "tabs",
         "children": [
           {
-            "id": "63ece8a0cc679bdc",
+            "id": "952df2e846801bc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/强化学习极简入门/前言.md",
+                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "前言"
+              "title": "Huggy 介绍"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
+                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "4 强化学习智能体的组成成分和类型 的反向链接列表"
+              "title": "Huggy 介绍 的反向链接列表"
             }
           },
           {
@@ -157,12 +156,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,92 +176,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "6bb31a0daf48fc84",
-    "type": "floating",
-    "children": [
-      {
-        "id": "6e585e4dcf2dc264",
-        "type": "window",
-        "children": [
-          {
-            "id": "06be5f00adbfe918",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "758ebcb6b48271e8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "4 强化学习智能体的组成成分和类型"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 659,
-        "y": 154,
-        "width": 600,
-        "height": 600,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "758ebcb6b48271e8",
+  "active": "952df2e846801bc0",
   "lastOpenFiles": [
-    "AI/DRL/强化学习极简入门/前言.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
-    "AI/DRL/强化学习极简入门/三大表格求解法.md",
-    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/3 动作空间.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
-    "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
-    "data/toc.data.ts.timestamp-1741406845075-54b81ad040864.mjs",
-    "AI/DRL/EasyRL/前言和目录.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307165833492.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164848979.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164836267.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164808723.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164307116.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307164403609.png",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/介绍.md",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250312224813626.png",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/img",
+    "AI/DRL/Deep RL Course/index.md",
     "AI/index.md",
     "index.md",
-    "data/toc.data.ts.timestamp-1741316121743-a71f60697eae2.mjs",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img/pic-20250307104814283.png",
-    "AI/DRL/EasyRL/第一章 强化学习基础/img",
     "toc.md",
-    "AI/DRL/EasyRL/第一章 强化学习基础",
-    "AI/DRL/EasyRL",
-    "AI/DRL/强化学习极简入门/img/pic-20250302111613348.png",
-    "AI/DRL/强化学习极简入门/img/pic-20250301230610139.png",
-    "AI/DRL/强化学习极简入门/img/pic-20250301230102904.png",
-    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
-    "AI/DRL/强化学习极简入门/img",
+    "DRL/Deep.md",
+    "DRL",
+    "AI/DRL/Deep RL Course/UNIT1/Quiz&总结&额外阅读材料.md",
+    "AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent.md",
+    "AI/DRL/Deep RL Course/UNIT1/小结.md",
+    "AI/DRL/Deep RL Course/UNIT1/探索和利用的权衡.md",
+    "AI/DRL/Deep RL Course/UNIT1/术语表.md",
+    "AI/DRL/Deep RL Course/UNIT1/什么是强化学习？.md",
+    "AI/DRL/Deep RL Course/UNIT1/任务类型.md",
+    "AI/DRL/Deep RL Course/UNIT1/强化学习中的“深度”.md",
+    "AI/DRL/Deep RL Course/UNIT1/强化学习框架.md",
+    "AI/DRL/Deep RL Course/UNIT1/介绍.md",
+    "AI/DRL/Deep RL Course/UNIT1/两种解决强化学习问题的方法.md",
+    "data/toc.data.ts.timestamp-1741777790455-cb288ae86b9cf.mjs",
+    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
+    "AI/DRL/Deep RL Course/前言.md",
+    "data/toc.data.ts.timestamp-1741772690620-eb65b4e1bb467.mjs",
+    "data/toc.data.ts.timestamp-1741771005202-16ebc6e7a28af.mjs",
+    "AI/DRL/Deep RL Course/BONUS UNIT1",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250312161510663.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310230839153.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250311165734466.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250311162126639.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/lunarLander.gif",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310203202394.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310203041382.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310192555605.png",
+    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310191848383.png",
+    "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
+    "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",
+    "AI/DRL/EasyRL/前言和目录.md",
+    "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
     "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
-    "AI/DRL/强化学习极简入门",
-    "AI/DRL/深度强化学习实战/未命名 1.md",
-    "AI/DRL/深度强化学习实战/img",
-    "AI/DRL/深度强化学习实战",
-    "AI/DRL",
-    "AI/LLM/大规模语言模型：从理论到实践/大语言模型基础.md",
-    "AI/LLM/大规模语言模型：从理论到实践/绪论.md",
-    "Website/vitepress/参考资料.md",
-    "AI/LLM/大模型理论基础/引言.md",
-    "AI/LLM/论文/DeepSeek-R1.md",
-    "AI/LLM/学习资源.md",
-    "大模型理论基础/引言.md",
-    "大语言模型基础/引言.md",
-    "().md",
-    "AI/LLM/大模型理论基础/index.md",
+    "AI/DRL/Deep RL Course/UNIT1/img",
+    "AI/DRL/Deep RL Course/UNIT1",
+    "AI/DRL/Deep RL Course",
+    "data/toc.data.ts.timestamp-1741406845075-54b81ad040864.mjs",
     "未命名.canvas"
   ]
 }

@@ -5,6 +5,7 @@ import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-in
 
 import { transformHeadMeta } from '@nolebase/vitepress-plugin-meta'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
+// import { calculateSidebar as originalCalculateSidebar } from "@nolebase/vitepress-plugin-sidebar"
 // import { buildEndGenerateOpenGraphImages } from '@nolebase/vitepress-plugin-og-image/vitepress'
 import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
@@ -12,6 +13,22 @@ import { defineConfig } from 'vitepress'
 
 import { discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
 import head from './head'
+
+// function calculateSidebarWithDefaultOpen(targets, base) { 
+//   const result = originalCalculateSidebar(targets, base) 
+//   if (Array.isArray(result)) { 
+//     result.forEach(item => { 
+//       item.collapsed = false
+//     }) 
+//   } else { 
+//     Object.values(result).forEach(items => { 
+//       items.forEach(item => { 
+//         item.collapsed = false
+//       }) 
+//     }) 
+//   } 
+//   return result 
+// } 
 
 export default defineConfig({
   vue: {
@@ -109,19 +126,35 @@ export default defineConfig({
       pattern: `${githubRepoLink}/tree/main/:path`,
       text: '编辑本页面',
     },
-    // sidebar: calculateSidebar([
-    //   { folderName: '/zh-CN/AI/LLM/', separate: true },
-    // ], 'zh-CN'),
     sidebar: {
-      '/zh-CN/AI/LLM/大模型理论基础/': [
+      '/zh-CN/AI/DRL/Deep RL Course/': [
         {
-          text: '大模型理论基础',
           items: [
-            {text: '引言', link: '/zh-CN/AI/LLM/大模型理论基础/'},
+            { text: '前言', link: '/zh-CN/AI/DRL/Deep RL Course/' },
+          ]
+        },
+        {
+          text: 'UNIT1. 深度强化学习简介',
+          collapsed: true,
+          items: [
+            { text: '介绍', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/介绍' },
+            { text: '什么是强化学习？', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/什么是强化学习？' },
+            { text: '强化学习框架', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/强化学习框架' },
+            { text: '任务类型', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/任务类型' },
+            { text: '探索和利用的权衡', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/探索和利用的权衡' },
+            { text: '两种解决强化学习问题的方法', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/两种解决强化学习问题的方法' },
+            { text: '强化学习中的“深度”', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/强化学习中的“深度”' },
+            { text: '小结', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/小结' },
+            { text: '术语表', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/术语表' },
+            { text: '训练第一个DRL Agent', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent' },
+            { text: 'Quiz&总结&额外阅读材料', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/Quiz&总结&额外阅读材料' },
           ]
         }
       ]
     },
+    //   calculateSidebarWithDefaultOpen([
+    //     'zh-CN/AI/DRL/Deep RL Course'
+    // ], ''),
     footer: {
       message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
       copyright:

@@ -63,14 +63,22 @@ mjx-container > svg {
 /*各级目录文字颜色*/
 /* docs/.vitepress/theme/global.css */
 .vp-doc h1,
-.vp-doc h2,
 .vp-doc .header-anchor:before {
-  color: unset !important;
-  background: linear-gradient(to right, #6fbef7, #ba89ff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  width: max-content;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #c7d2fe, #8678f9);
+    background-size: 200% auto;
+    letter-spacing: 0.1rem;
+}
+
+.vp-doc h2 {
+    color: unset !important;
+    background: linear-gradient(to right, #6fbef7, #ba89ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
 }
 
 .vp-doc h3 {
