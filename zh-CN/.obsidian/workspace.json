@@ -140,10 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Website/index.md"
+                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "Huggy 介绍 的大纲"
             }
           },
           {
@@ -157,11 +160,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,12 +182,15 @@
   },
   "active": "952df2e846801bc0",
   "lastOpenFiles": [
-    "AI/DRL/Deep RL Course/BONUS UNIT1/介绍.md",
+    "AI/index.md",
+    "DRL/Deep-RL-Course/index.md",
+    "DRL/Deep-RL-Course",
+    "AI/DRL/Deep RL Course/index.md",
     "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250312230042040.png",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/介绍.md",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250312224813626.png",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img",
-    "AI/DRL/Deep RL Course/index.md",
-    "AI/index.md",
     "index.md",
     "toc.md",
     "DRL/Deep.md",
@@ -213,17 +220,14 @@
     "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310203202394.png",
     "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310203041382.png",
     "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310192555605.png",
-    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310191848383.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",
     "AI/DRL/EasyRL/前言和目录.md",
     "AI/DRL/深度强化学习实战/第一章 什么是强化学习.md",
-    "AI/DRL/深度强化学习实战/第三章 预测最佳状态和动作：DQN.md",
     "AI/DRL/Deep RL Course/UNIT1/img",
     "AI/DRL/Deep RL Course/UNIT1",
     "AI/DRL/Deep RL Course",
-    "data/toc.data.ts.timestamp-1741406845075-54b81ad040864.mjs",
     "未命名.canvas"
   ]
 }
