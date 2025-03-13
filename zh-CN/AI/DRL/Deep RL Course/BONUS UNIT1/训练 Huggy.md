@@ -2,6 +2,8 @@
 
 同样我们使用 Google Colab 进行实验：<a href="https://colab.research.google.com/github/huggingface/deep-rl-class/blob/master/notebooks/bonus-unit1/bonus-unit1.ipynb" rel="nofollow"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
+如果 Colab 总是断连，建议换成 kaggle notebook，记得
+
 ## 训练相关
 
 最终要实现的效果如下：
