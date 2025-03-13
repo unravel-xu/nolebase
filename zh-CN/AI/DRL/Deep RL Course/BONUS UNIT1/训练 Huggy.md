@@ -181,3 +181,32 @@ behaviors:
 
 ![[pic-20250313153618593.png]]
 
+## 上传模型到 Hugging Face Hub
+
+这里 Google Colab 和 Kaggle 有些区别：
+
+Colab 可以直接在 notebook 里交互：
+
+```bash
+from huggingface_hub import notebook_login
+notebook_login()
+```
+
+Kaggle 调用接口输入：
+
+```bash
+from huggingface_hub.hf_api import HfFolder
+HfFolder.save_token("YOUR_HUGGINGFACE_TOKEN")
+```
+
+上传模型：
+
+```bash
+!mlagents-push-to-hf --run-id="HuggyTraining" --local-dir="./results/Huggy2" --repo-id="EvaristeL/ppo-Huggy" --commit-message="Huggy"
+```
+
+注意修改 repo-id 为自己的 id
+
+## 用训练的模型进行游戏
+
+打开网页的[](https://www.google.com/url?q=https%3A%2F%2Fhuggingface.co%2Fspaces%2FThomasSimonini%2FHuggy)
