@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -182,10 +183,12 @@
   },
   "active": "fdb88169e114f7b7",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313232356468.png",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313230112377.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313224958849.png",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313222102511.png",
     "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313225012327.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313222102511.png",
     "AI/DRL/Deep RL Course/UNIT2/介绍.md",
     "AI/DRL/Deep RL Course/UNIT2/img/envs.gif",
     "AI/index.md",
@@ -203,7 +206,6 @@
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250313173119529.png",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250313172608078.png",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250313153618593.png",
-    "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250313125312793.png",
     "DRL/Deep-RL-Course/index.md",
     "DRL/Deep-RL-Course",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img",
