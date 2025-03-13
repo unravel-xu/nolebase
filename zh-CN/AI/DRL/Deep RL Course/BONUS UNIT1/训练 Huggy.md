@@ -58,4 +58,56 @@ git clone --depth 1 https://github.com/Unity-Technologies/ml-agents
 
 ## 安装依赖
 
+```shell
+%%capture
+# Go inside the repository and install the package (can take 3min)
+%cd ml-agents
+!pip3 install -e ./ml-agents-envs
+!pip3 install -e ./ml-agents
+```
 
+## 下载环境
+
+先创建放置环境的文件夹
+
+```shell
+!mkdir ./trained-envs-executables #总文件夹
+!mkdir ./trained-envs-executables/linux # 执行环境文件夹
+```
+
+从 github 下载环境，我们只需要 zip 文件就行
+
+```shell
+!wget "https://github.com/huggingface/Huggy/raw/main/Huggy.zip" -O ./trained-envs-executables/linux/Huggy.zip
+```
+
+解压环境
+
+```shell
+%%capture
+!unzip -d ./trained-envs-executables/linux/ ./trained-envs-executables/linux/Huggy.zip
+```
+
+修改文件夹权限
+
+```shell
+!chmod -R 755 ./trained-envs-executables/linux/Huggy
+```
+
+## 回顾整个流程
+
+### State Space
+
+和前面提到的一样，我们不区分状态空间和观测空间，认为状态空间就是 Huggy 能“感知”到的内容。我们为 Huggy 提供一些信息：目标（木棍）的位置，它和目标的相对位置，它的腿部朝向。通过提供的信息，Huggy 做出决策采取哪个动作
+
+### Action Space
+
+Huggy 的腿由关节电机驱动，所以为朝目标移动，它需要学习如何正确旋转每条腿的关节电机
+
+### Reward Function
+
+包括四种奖励：方向奖励、时间惩罚、旋转惩罚、到达目标奖励
+
+## 创建 Huggy 配置文件
+
+在 ML-Agent 中，创建 config.yaml 配置文件来定义训练的超参数
