@@ -6,6 +6,18 @@ UNIT1 曾简要介绍了 value-based 方法，我们知道会训练出一个 val
 
 ![[pic-20250313222102511.png]]
 
-一个状态的价值是 agent 从该状态开始，根据我们的策略行动可以获取的期望折扣回报
+一个状态的价值是 agent 从该状态开始，根据策略采取行动，最终可以获取的期望折扣回报
 
-> [!Que]
+> [!question]
+> 根据策略行动是什么意思？我们在 value-based 的方法中不会像 policy-based 的方法训练得到策略，而是得到 value function
+
+但无论是 value-based 的方法还是 policy-based 的方法，我们的目标都是找到一个最优策略 $\pi^{*}$
+
+要找到最优策略，对比这两种方法：
+
+<figure class="half">
+	<img src=./img/pic-20250313224958849>
+</figure>
+
+
+
