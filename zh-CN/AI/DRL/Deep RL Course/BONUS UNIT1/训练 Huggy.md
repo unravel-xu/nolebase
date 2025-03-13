@@ -110,4 +110,43 @@ Huggy 的腿由关节电机驱动，所以为朝目标移动，它需要学习�
 
 ## 创建 Huggy 配置文件
 
-在 ML-Agent 中，创建 config.yaml 配置文件来定义训练的超参数
+在 ML-Agent 中，创建 config.yaml 配置文件来定义训练的超参数，示例全部使用默认，如果想自己调整超参数实验，可以参考[说明文档](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md)
+
+我们还需要创建一个 Huggy.yaml 配置文件：
+
+```bash
+touch ./content/ml-agents/config/ppo/huggy.yaml
+```
+
+复制粘贴如下配置：
+
+```yaml
+behaviors:
+  Huggy:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 2048
+      buffer_size: 20480
+      learning_rate: 0.0003
+      beta: 0.005
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+      learning_rate_schedule: linear
+    network_settings:
+      normalize: true
+      hidden_units: 512
+      num_layers: 3
+      vis_encode_type: simple
+    reward_signals:
+      extrinsic:
+        gamma: 0.995
+        strength: 1.0
+    # 每200000步保存一次
+    checkpoint_interval: 200000
+    keep_checkpoints: 15
+    max_steps: 2e6
+    time_horizon: 1000
+    summary_freq: 50000
+```
+
