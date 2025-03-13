@@ -2,7 +2,9 @@
 
 同样我们使用 Google Colab 进行实验：<a href="https://colab.research.google.com/github/huggingface/deep-rl-class/blob/master/notebooks/bonus-unit1/bonus-unit1.ipynb" rel="nofollow"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-如果 Colab 总是断连，建议换成 kaggle notebook，记得
+如果 Colab 总是断连，建议换成 kaggle notebook，记得认证手机号后，打开网络连接和持续化：
+
+![[pic-20250313173119529.png]]
 
 ## 训练相关
 
