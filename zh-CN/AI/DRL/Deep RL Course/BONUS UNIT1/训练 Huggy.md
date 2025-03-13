@@ -173,4 +173,7 @@ behaviors:
 !mlagents-learn ./config/ppo/Huggy.yaml --env=./trained-envs-executables/linux/Huggy/Huggy --run-id="Huggy2" --no-graphics
 ```
 
+最后训练结果：
+
+![[pic-20250313153618593.png]]
 
