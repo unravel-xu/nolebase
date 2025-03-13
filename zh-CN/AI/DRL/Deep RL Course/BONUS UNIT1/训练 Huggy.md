@@ -209,4 +209,6 @@ HfFolder.save_token("YOUR_HUGGINGFACE_TOKEN")
 
 ## 用训练的模型进行游戏
 
-打开网页的[](https://www.google.com/url?q=https%3A%2F%2Fhuggingface.co%2Fspaces%2FThomasSimonini%2FHuggy)
+打开网页在线 [Huggy游戏](https://www.google.com/url?q=https%3A%2F%2Fhuggingface.co%2Fspaces%2FThomasSimonini%2FHuggy)，按如下三步加载仓库中的模型
+
+![[pic-20250313195722937.png]]

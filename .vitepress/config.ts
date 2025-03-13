@@ -149,7 +149,16 @@ export default defineConfig({
             { text: '训练第一个DRL Agent', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent' },
             { text: 'Quiz&总结&额外阅读材料', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT1/Quiz&总结&额外阅读材料' },
           ]
-        }
+        },
+        {
+          text: 'BONUS UNIT1. 用DRL玩HUGGY游戏',
+          collapsed: true,
+          items: [
+            { text: '介绍', link: '/zh-CN/AI/DRL/Deep RL Course/BONUS UNIT1/介绍' },
+            { text: '什么是强化学习？', link: '/zh-CN/AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍' },
+            { text: '强化学习框架', link: '/zh-CN/AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy' },
+          ]
+        },
       ]
     },
     //   calculateSidebarWithDefaultOpen([
