@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Huggy 介绍"
+              "title": "训练 Huggy"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Huggy 介绍 的反向链接列表"
+              "title": "训练 Huggy 的反向链接列表"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+                "file": "AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Huggy 介绍 的大纲"
+              "title": "训练 Huggy 的大纲"
             }
           },
           {
@@ -182,13 +182,15 @@
   },
   "active": "952df2e846801bc0",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
+    "AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy.md",
+    "AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent.md",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250313085837615.png",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250312233139798.png",
     "AI/index.md",
     "DRL/Deep-RL-Course/index.md",
     "DRL/Deep-RL-Course",
     "AI/DRL/Deep RL Course/index.md",
-    "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250312230042040.png",
     "AI/DRL/Deep RL Course/BONUS UNIT1/介绍.md",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250312224813626.png",
@@ -198,7 +200,6 @@
     "DRL/Deep.md",
     "DRL",
     "AI/DRL/Deep RL Course/UNIT1/Quiz&总结&额外阅读材料.md",
-    "AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent.md",
     "AI/DRL/Deep RL Course/UNIT1/小结.md",
     "AI/DRL/Deep RL Course/UNIT1/探索和利用的权衡.md",
     "AI/DRL/Deep RL Course/UNIT1/术语表.md",
@@ -220,7 +221,6 @@
     "AI/DRL/Deep RL Course/UNIT1/img/pic-20250311162126639.png",
     "AI/DRL/Deep RL Course/UNIT1/img/lunarLander.gif",
     "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310203202394.png",
-    "AI/DRL/Deep RL Course/UNIT1/img/pic-20250310203041382.png",
     "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/2 序列决策.md",
     "AI/DRL/EasyRL/第一章 强化学习基础/1 强化学习概述.md",

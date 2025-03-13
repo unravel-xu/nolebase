@@ -39,5 +39,6 @@ Huggy 的腿由关节电机驱动，如图所示，Huggy 需要学会正确地�
 
 ![[pic-20250313085837615.png]]
 
+训练环境中会随机生成木棍，当 Huggy 到达木棍时，木棍会重新生成在其他地点。我们为训练构建了环境的多个副本，从而通过多样化的经验来加快训练
 
-
+我们将直接使用 [MLAgents](https://github.com/Unity-Technologies/ml-agents) 提供的实现，后续课程会深入了解 MLAgents 的运行原理
