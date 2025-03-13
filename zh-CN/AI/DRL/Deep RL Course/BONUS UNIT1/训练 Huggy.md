@@ -115,8 +115,12 @@ Huggy 的腿由关节电机驱动，所以为朝目标移动，它需要学习�
 我们还需要创建一个 Huggy.yaml 配置文件：
 
 ```bash
-touch ./content/ml-agents/config/ppo/huggy.yaml
+!touch ./content/ml-agents/config/ppo/huggy.yaml
 ```
+
+输命令有问题，也可以手动创建：
+
+![[pic-20250313125312793.png]]
 
 复制粘贴如下配置：
 
@@ -144,9 +148,29 @@ behaviors:
         strength: 1.0
     # 每200000步保存一次
     checkpoint_interval: 200000
+    # 最多保留15个模型检查点
     keep_checkpoints: 15
     max_steps: 2e6
     time_horizon: 1000
     summary_freq: 50000
 ```
+
+保存配置文件
+
+## 训练 Agent
+
+训练 agent，我们只需要启动 ML-Agents-Learn 并选择可执行环境，参数如下：
+- `mlagents-learn <config>`：超参数配置文件的位置
+- `--env`：可执行环境的位置
+- `--run-id`：给训练运行 ID 命名
+- `--no-graphics`：训练期间不启动可视化
+
+使用 --resume 在中断情况下能继续训练模型
+
+> 第一次使用 --resume 时会失败，请尝试再次运行该代码块以绕过错误 
+
+```bash
+!mlagents-learn ./config/ppo/Huggy.yaml --env=./trained-envs-executables/linux/Huggy/Huggy --run-id="Huggy2" --no-graphics
+```
+
 
