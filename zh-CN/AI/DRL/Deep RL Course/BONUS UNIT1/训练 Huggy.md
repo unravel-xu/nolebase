@@ -115,7 +115,7 @@ Huggy 的腿由关节电机驱动，所以为朝目标移动，它需要学习�
 我们还需要创建一个 Huggy.yaml 配置文件：
 
 ```bash
-!touch ./content/ml-agents/config/ppo/huggy.yaml
+!touch ./content/ml-agents/config/ppo/Huggy.yaml
 ```
 
 输命令有问题，也可以手动创建：
