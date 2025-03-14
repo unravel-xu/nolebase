@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bddb6a4acc1d0f4d",
+        "id": "d5c4cc136f07ebf8",
         "type": "tabs",
         "children": [
           {
-            "id": "fdb88169e114f7b7",
+            "id": "3aa0006bcba853e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,12 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fdb88169e114f7b7",
+  "active": "3aa0006bcba853e8",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314105335026.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314104831648.png",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
-    "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314103118115.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314102438312.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314101931854.png",
@@ -195,7 +195,6 @@
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313222102511.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313225012327.png",
     "AI/DRL/Deep RL Course/UNIT2/介绍.md",
-    "AI/DRL/Deep RL Course/UNIT2/img/envs.gif",
     "AI/index.md",
     "AI/DRL/Deep RL Course/index.md",
     "AI/DRL/Deep RL Course/UNIT2/img",

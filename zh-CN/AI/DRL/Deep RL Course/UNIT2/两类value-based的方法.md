@@ -62,5 +62,14 @@ $$V_{\pi}(s)=E_{\pi}\left(reward_{-6\to -5}+reward_{-5\to -4}+reward_{-4\to -3}\
 但在 action-value function 中：
 
 $$
-Q_{\pi}(s,\ action1) = E_{\pi}\left(\right) 
+Q_{\pi}(s,\ action1) = E_{\pi}\left(reward_{-6\to -5}+reward_{-5\to -4}+reward_{-4\to -3}\dots\right) 
 $$
+
+$$
+Q_{\pi}(s,\ action2) = E_{\pi}\left(reward_{-6\to -7}+reward_{-7\to -8}\right) 
+$$
+
+从中我们发现区别在于：
+- state-value 函数：只关注在这个 state 的价值
+- action-value 函数：强调了这个 state 下采取每个可能 action 的价值
+
