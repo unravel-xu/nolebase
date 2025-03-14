@@ -24,4 +24,36 @@ Monte Carlo 等到整个 episode 结束后才计算 $G_{t}$（回报）并将 $G
 - Agent 根据 policy 选择 action，如使用 $\epsilon -Greddy$ 策略
 - 得到 reward 和下一个 state
 - 如果猫吃掉老鼠或老鼠移动超过 10 步，回合结束
-- 回合结束后，我们会得到一个 State、Actions、Rewards、Next States
+- 回合结束后，我们会得到一个 $\left(State、Actions、Rewards、Next \ States \right)$ 构成的元组列表，如 
+
+$$\begin{aligned}
+& \left(状态: 第三个瓷砖的底部，向左移动，+1，状态: 第二个瓷砖的底部\right)\ ,\\
+& \left(状态: 第二个瓷砖的底部，向左移动，+0，状态: 第一个瓷砖的底部\right)\ , \\
+& \dots
+\end{aligned}
+$$
+- Agent 将计算回报 $(G_t)$（以衡量其性能）
+- 然后它会根据如下公式更新 $V(S_{t})$
+![[pic-20250314232320433.png]]
+- 更新后重新开始新一回合的游戏
+
+通过训练越来越多的回合，智能体会把游戏玩的越来越好
+
+假设 $Learning \ Rate \ \ \alpha = 0.1\ , \ \gamma=1$，policy 为采取随机 action
+
+![[pic-20250314233035641.png]]
+
+小老鼠随机移动超过了 10 步，回合结束：
+
+$$
+\begin{aligned}
+G_{t=0} & = R_{t+1} + R_{t+2} + R_{t+3} + \dots \\
+& = 1(吃到奶酪)+0+0+0+0+0+1(吃到奶酪)+1(吃到奶酪)+0+0 \\
+& = 3
+\end{aligned}
+$$
+$$
+
+V(S_{0})_{new} = V(S_{0}) + \alpha \cdot \left[G_{0}-V(S_{0})\right]
+$$
+
