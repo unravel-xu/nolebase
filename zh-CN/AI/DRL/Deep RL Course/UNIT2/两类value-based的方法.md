@@ -27,3 +27,6 @@ Value 和 Policy 的联系如下：
 
 ![[pic-20250313232356468.png]]
 
+但在 value-based 的方法中，我们通常会使用 $\epsilon-$ 贪心策略而不是纯贪心策略以平衡 exploration/exploitation
+
+
