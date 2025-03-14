@@ -10,5 +10,21 @@ Bellman 公式可以帮助我们简化 state value 或 state-action value 计算
 
 ![[pic-20250314141337389.png]]
 
+计算 $V(S_{t+1})$：
 
+![[pic-20250314145030728.png]]
+
+我们发现 $V(S_{t})$ 和 $V(S_{t+1})$ 一旦轨迹很长计算就会很繁琐，且计算过程中有很多部分是重复的
+
+类似用动态规划（DP）求 fibonacci 数的思路，我们可以使用 Bellman 方程简化 value 求解，Bellman 方程是一个递归方程，认为每一个状态的value 都可以视为：
+
+immediate reward $R_{t+1}$  + 下一个 state 的 discounted value $\gamma\cdot V(S_{t+1})$
+
+![[pic-20250314145838170.png]]
+
+回到上例计算过程，假设 $\gamma=1$：
+
+![[pic-20250314150040062.png]]
+
+在后续 Q-Learning 算法中，会有 $\gamma=0.99$ 的情形
 
