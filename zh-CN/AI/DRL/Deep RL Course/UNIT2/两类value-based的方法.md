@@ -2,7 +2,7 @@
 
 前一小节 What is RL？A short recap 略
 
-UNIT1 曾简要介绍了 value-based 方法，我们知道会训练出一个 value function 将 state 映射到 state 的期望价值
+UNIT1 曾简要介绍了 value-based 方法，我们知道会训练出一个 value function 将 state 映射到 state 的期望回报
 
 ![[pic-20250313222102511.png]]
 
