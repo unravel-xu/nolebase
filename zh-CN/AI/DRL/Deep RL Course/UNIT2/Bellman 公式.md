@@ -26,5 +26,4 @@ immediate reward $R_{t+1}$  + 下一个 state 的 discounted value $\gamma\cdot 
 
 ![[pic-20250314150040062.png]]
 
-在后续 Q-Learning 算法中，会有 $\gamma=0.99$ 的情形
-
+在后续 Q-Learning 算法中，会有 $\gamma=0.99$ 的情形，这里我们只是为展示原理
