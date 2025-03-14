@@ -29,7 +29,7 @@ Value 和 Policy 的联系如下：
 
 但在 value-based 的方法中，我们通常会使用 $\epsilon-$ 贪心策略而不是纯贪心策略以平衡 exploration/exploitation
 
-下面介绍两种 value-based functions：
+下面介绍两种 value-based function：
 
 ## state-value function
 
@@ -45,3 +45,22 @@ Value 和 Policy 的联系如下：
 
 ![[pic-20250314103118115.png]]
 
+从某一个状态 $s$ 开始，选取任意一动作 $a$，得到 $<s(state)\ ,\ a(action)>$ 并转入新状态 $s'$，之后每一步动作都按照策略 $\pi$ 选取，返回期望回报
+
+![[pic-20250314104831648.png]]
+
+例如我们采取贪心策略并从 value = -7 的 state 开始，此时只有向右的 action，所以和 state-value 不会有区别，但当我们从 value = -6 的 state 开始：
+
+![[pic-20250314105335026.png]]
+
+会有两种 action 可以选择，state-value function 会如下计算：
+
+$$V_{\pi}(s)=E_{\pi}\left(reward_{-6\to -5}+reward_{-5\to -4}+reward_{-4\to -3}\dots\right)$$
+
+由于我们预先定义了贪心策略 $\pi$，那么 state = -6 不会转到 state = -7
+
+但在 action-value function 中：
+
+$$
+Q_{\pi}(s,\ action1) = E_{\pi}\left(\right) 
+$$

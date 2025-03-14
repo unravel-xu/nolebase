@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -183,6 +182,10 @@
   },
   "active": "fdb88169e114f7b7",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314105335026.png",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314104831648.png",
+    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
+    "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314103118115.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314102438312.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314101931854.png",
@@ -190,13 +193,11 @@
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313230112377.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313224958849.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313222102511.png",
-    "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313225012327.png",
     "AI/DRL/Deep RL Course/UNIT2/介绍.md",
     "AI/DRL/Deep RL Course/UNIT2/img/envs.gif",
     "AI/index.md",
     "AI/DRL/Deep RL Course/index.md",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250313204012094.png",
     "AI/DRL/Deep RL Course/UNIT2/img",
     "AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy.md",
     "AI/DRL/Deep RL Course/UNIT2",
@@ -205,7 +206,6 @@
     "AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent.md",
     "AI/DRL/Deep RL Course/UNIT1/Quiz&总结&额外阅读材料.md",
     "AI/DRL/Deep RL Course/BONUS UNIT1/介绍.md",
-    "AI/DRL/Deep RL Course/BONUS UNIT1/img/pic-20250313195722937.png",
     "DRL/Deep-RL-Course/index.md",
     "DRL/Deep-RL-Course",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img",
@@ -227,7 +227,6 @@
     "data/toc.data.ts.timestamp-1741772690620-eb65b4e1bb467.mjs",
     "data/toc.data.ts.timestamp-1741771005202-16ebc6e7a28af.mjs",
     "AI/DRL/Deep RL Course/BONUS UNIT1",
-    "AI/DRL/EasyRL/第一章 强化学习基础/4 强化学习智能体的组成成分和类型.md",
     "AI/DRL/Deep RL Course/UNIT1/img",
     "未命名.canvas"
   ]
