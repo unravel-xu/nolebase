@@ -71,5 +71,5 @@ $$
 
 从中我们发现区别在于：
 - state-value 函数：只关注在这个 state 的价值
-- action-value 函数：强调了这个 state 下采取每个可能 action 的价值
+- action-value 函数：强调了这个 state 下采取某个可能 action 的价值
 
