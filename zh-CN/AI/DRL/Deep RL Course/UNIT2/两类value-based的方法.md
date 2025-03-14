@@ -8,7 +8,7 @@ UNIT1 曾简要介绍了 value-based 方法，我们知道会训练出一个 val
 
 一个状态的价值是 agent 从该状态开始，根据策略采取行动，最终可以获取的期望折扣回报
 
-> [!question]
+> [!tip]
 > 根据策略行动是什么意思？我们在 value-based 的方法中不会像 policy-based 的方法训练得到策略，而是得到 value function
 
 但无论是 value-based 的方法还是 policy-based 的方法，我们的目标都是找到一个最优策略 $\pi^{*}$
@@ -66,10 +66,15 @@ Q_{\pi}(s,\ action1) = E_{\pi}\left(reward_{-6\to -5}+reward_{-5\to -4}+reward_{
 $$
 
 $$
-Q_{\pi}(s,\ action2) = E_{\pi}\left(reward_{-6\to -7}+reward_{-7\to -8}\right) 
+Q_{\pi}(s,\ action2) = E_{\pi}\left(reward_{-6\to -7}+reward_{-7\to -8}+\dots\right) 
 $$
 
-从中我们发现区别在于：
-- state-value 函数：只关注在这个 state 的价值
-- action-value 函数：强调了这个 state 下采取某个可能 action 的价值
+**注意：reward 是在 Agent 采取 action 后，环境反馈的**
 
+假设采取贪心的固定策略，我们发现区别在于：
+- state-value 函数：计算 state-value 时，action 已经确定好了，action 的价值没有体现
+- action-value 函数：可以体现某个 state 下采取不同 action 的价值
+
+但无论是哪种情况，函数返回的都是期望回报（expected return）
+
+现在我们知道了定义，该如何计算呢？
