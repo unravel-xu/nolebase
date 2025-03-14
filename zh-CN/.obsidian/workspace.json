@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "两类value-based的方法"
+              "title": "Bellman 公式"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "两类value-based的方法 的反向链接列表"
+              "title": "Bellman 公式 的反向链接列表"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "两类value-based的方法 的大纲"
+              "title": "Bellman 公式 的大纲"
             }
           },
           {
@@ -183,6 +183,7 @@
   "active": "3aa0006bcba853e8",
   "lastOpenFiles": [
     "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
+    "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314105335026.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314104831648.png",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
