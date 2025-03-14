@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bellman 公式"
+              "title": "Monte Carlo vs Temporal Difference Learning"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Bellman 公式 的反向链接列表"
+              "title": "Monte Carlo vs Temporal Difference Learning 的反向链接列表"
             }
           },
           {
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Bellman 公式 的大纲"
+              "title": "Monte Carlo vs Temporal Difference Learning 的大纲"
             }
           },
           {
@@ -197,8 +197,9 @@
   },
   "active": "b9312887f314b66f",
   "lastOpenFiles": [
-    "AI/DRL/强化学习极简入门/前言.md",
     "AI/DRL/Deep RL Course/UNIT2/Bellman 公式.md",
+    "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
+    "AI/DRL/强化学习极简入门/前言.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314150040062.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314145838170.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314145030728.png",
@@ -238,7 +239,6 @@
     "AI/DRL/Deep RL Course/UNIT1/强化学习框架.md",
     "AI/DRL/Deep RL Course/UNIT1/两种解决强化学习问题的方法.md",
     "data/toc.data.ts.timestamp-1741777790455-cb288ae86b9cf.mjs",
-    "AI/DRL/深度强化学习实战/第二章 强化学习问题建模：马尔可夫决策过程.md",
     "data/toc.data.ts.timestamp-1741772690620-eb65b4e1bb467.mjs",
     "data/toc.data.ts.timestamp-1741771005202-16ebc6e7a28af.mjs",
     "AI/DRL/Deep RL Course/BONUS UNIT1",
