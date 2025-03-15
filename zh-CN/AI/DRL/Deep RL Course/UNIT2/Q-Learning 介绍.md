@@ -94,4 +94,19 @@ epsilon-greedy 策略是一种平衡 exploration/exploitation 的策略
 
 ![[pic-20250315161802202.png]]
 
-注意 $max_{a}Q\left(S_{t+1},a\right)$ 指的是在 $<S_{t+1}, action1>,<S_{t+1}, action2>,\dots$ 中选择最大的 $Q(S_{t+1})$
+注意 $max_{a}Q\left(S_{t+1},a\right)$ 指的是在所有 $<S_{t+1}, action1>,<S_{t+1}, action2>,\dots$ 中选择能使 $Q\left(S_{t+1}, action(i)\right)$ 值最大的（即 optimal Q-value of next state）（该过程称为 bootstrap）
+
+所以更新 $Q\left(S_{t},A_{t}\right)$：
+- 需要 $S_{t}\ , \ A_{t}\ ,\ R_{t+1}\ ,\ S_{t+1}$
+- 需要用 TD target 更新给定状态-动作对的 Q-value
+
+如何构造 TD target？
+1. 获得采取 $action \ \ A_{t}$ 后得到的 $reward \ \ R_{t+1}$
+2. 为获得下一个 state 的最佳 state-action 值，我们使用贪心策略来选择下一个最佳动作。特别注意，不是 epsilon-greedy 策略，而是始终选择具有最高 state-action 值的 action
+
+更新完 Q-value 后，进入新的状态并再次使用 epsilon-greedy policy 选择动作
+
+## Off-Policy vs On-Policy
+
+同策略（On-Policy）和异策略（Off-Policy）区别很小：
+
