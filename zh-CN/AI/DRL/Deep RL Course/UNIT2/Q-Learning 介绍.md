@@ -110,3 +110,18 @@ epsilon-greedy 策略是一种平衡 exploration/exploitation 的策略
 
 同策略（On-Policy）和异策略（Off-Policy）区别很小：
 
+- Off-policy：在行动（推理）和更新（训练）部分中使用不同的策略
+
+例如，Q-Learning 中，每步选择 action 的策略是 epsilon-greedy policy（行动策略），而构造 TD target 更新 Q-value 是 greedy policy（更新策略），所以 Q-Learning 是 Off-policy 算法
+
+- On-policy：在行动和更新部分使用相同的策略
+
+例如：另一种 value-based 的算法——Sarsa 算法中，更新策略也使用 epsilon-greedy policy
+
+![[pic-20250315174423463.png]]
+
+所以 Sarsa 算法是 On-policy 算法
+
+对比如下：
+
+![[pic-20250315174525628.png]]
