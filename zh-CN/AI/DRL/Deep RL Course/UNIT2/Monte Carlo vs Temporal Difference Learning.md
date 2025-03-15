@@ -106,13 +106,16 @@ $$
 
 ## 总结
 
+Monte Carlo：
+
 $$
 V(S_{t}) \leftarrow V(S_{t}) + \alpha \cdot \left[\textcolor{red}{G_{t}} - V(S_{t})\right]
-\tag{Monte Carlo}
 $$
+
+TD(0) Learning：
+
 $$
 V(S_{t}) \leftarrow V(S_{t}) + \alpha \cdot \left[\underbrace{\textcolor{red}{R_{t+1} + \gamma \cdot V(S_{t+1})}}_{TD \ \text{-} \ Target}- V(S_{t})\right]
-\tag{TD(0) Learning}
 $$
 
 -  $G_{t}$ 是每个 episode 得到的真实回报

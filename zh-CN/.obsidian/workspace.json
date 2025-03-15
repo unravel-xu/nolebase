@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/中期回顾.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "中期回顾"
+              "title": "Q-Learning 介绍"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/中期回顾.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "中期回顾 的反向链接列表"
+              "title": "Q-Learning 介绍 的反向链接列表"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/中期回顾.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "中期回顾 的大纲"
+              "title": "Q-Learning 介绍 的大纲"
             }
           },
           {
@@ -182,8 +182,10 @@
   },
   "active": "83ff7a5327986e1a",
   "lastOpenFiles": [
-    "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
     "AI/DRL/Deep RL Course/UNIT2/中期回顾.md",
+    "AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍.md",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315105638983.png",
+    "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315101034037.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315095959109.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315095917508.png",
@@ -196,7 +198,6 @@
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314230026171.png",
     "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314150040062.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250314145838170.png",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/Deep RL Course/UNIT2/介绍.md",
     "AI/index.md",
@@ -222,7 +223,6 @@
     "AI/DRL/Deep RL Course/UNIT1/什么是强化学习？.md",
     "AI/DRL/Deep RL Course/UNIT1/任务类型.md",
     "AI/DRL/Deep RL Course/UNIT1/强化学习中的“深度”.md",
-    "AI/DRL/Deep RL Course/UNIT1/强化学习框架.md",
     "data/toc.data.ts.timestamp-1741777790455-cb288ae86b9cf.mjs",
     "data/toc.data.ts.timestamp-1741772690620-eb65b4e1bb467.mjs",
     "data/toc.data.ts.timestamp-1741771005202-16ebc6e7a28af.mjs",
