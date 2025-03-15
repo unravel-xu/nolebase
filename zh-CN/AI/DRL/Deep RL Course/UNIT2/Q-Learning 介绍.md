@@ -27,7 +27,7 @@ Q-function 中的“Q”来源于“Quality”，指某个 action 在某个 stat
 
 先将 Q-table 中的每一个值初始化为 0，Q-table 的每一行代表一个 state，每一列代表一个 action，每个格子代表<对应行的 state-对应列的action> 的 value，所以表格的一行就表示某个状态下不同动作的 value
 
-对于图中的简例，state 就是老鼠的位置，共有 6 个 state，对应 Q-table 就有 6 行：
+对于图中的简例，state 就是老鼠的位置，共有 6 个位置，就有 6 个 state，对应 Q-table 就有 6 行，当然真实情况下 state 包含的信息多得多：
 
-![[pic-20250315130113297.png]]
+![[pic-20250315130247381.png]]
 
