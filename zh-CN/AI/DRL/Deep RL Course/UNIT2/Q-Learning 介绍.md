@@ -12,4 +12,7 @@ Q-Learning 是我们用来训练 Q-function 的算法，前面我们知道 Q-fun
 ![[pic-20250315120019240.png]]
 Q-function 输出的 state-action value 也称 Q-value
 
-Q-function 中的“Q”来源于“Quality”，指代某个 action 在某个 state 下
+Q-function 中的“Q”来源于“Quality”，指某个 action 在某个 state 下的“Quality”（value）
+
+让我们回顾一下 value 和 reward 之间的区别：
+
