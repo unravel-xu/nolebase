@@ -58,3 +58,18 @@ Q-function 中的“Q”来源于“Quality”，指某个 action 在某个 stat
 
 ![[pic-20250315152851572.png]]
 
+### 第一步：初始化 Q-table
+
+![[pic-20250315155241783.png]]
+
+初始化 Q-table 中的每个 state-action pair，大多数情况下，我们初始化为 0
+
+### 第二步：使用 epsilon-greedy 策略选择一个 action
+
+![[pic-20250315155439104.png]]
+
+epsilon-greedy 策略是一种平衡 exploration/exploitation 的策略
+
+先给 epsilon 赋一个值，例如：$\epsilon=1.0$：
+- 智能体将以 $\epsilon$ 的概率进行探索（exploration），此时智能体将随机选择 action
+- 智能体将以 $1-\epsilon$ 的概率进行利用（exploitation），此时智能体将选择有最大 state-action pair 值的 action
