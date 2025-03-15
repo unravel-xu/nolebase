@@ -94,4 +94,4 @@ epsilon-greedy 策略是一种平衡 exploration/exploitation 的策略
 
 ![[pic-20250315161802202.png]]
 
-特别的是
+注意 $max_{a}Q\left(S_{t+1},a\right)$ 指的是在 $<S_{t+1}, action1>,<S_{t+1}, action2>,\dots$ 中选择最大的 $Q(S_{t+1})$
