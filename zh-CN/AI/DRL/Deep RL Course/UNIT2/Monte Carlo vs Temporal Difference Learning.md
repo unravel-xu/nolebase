@@ -77,7 +77,7 @@ TD 算法的思想是在每一步都对 $V(S_{t})$ 进行更新
 
 ![[pic-20250315095440602.png]]
 
-因为只用了 $V(S_{t+1})$ 来更新 $V(S_{t})$，即后一步状态来更新当前状态，所称为单步 TD（one-step TD）或 TD(0)（也即在任何单个步骤后就更新 value function）
+因为只用了 $V(S_{t+1})$ 来更新 $V(S_{t})$，即后一步状态来更新当前状态，所称为单步 TD（one-step TD）或 TD(0)（也即在单个步骤后就更新 value function）
 
 ![[pic-20250315095917508.png]]
 
@@ -85,3 +85,35 @@ TD 算法的思想是在每一步都对 $V(S_{t})$ 进行更新
 
 ![[pic-20250315095959109.png]]
 
+- 初始化 value function，使每个状态都会返回 0
+- 假设 $Learning \ rate \ \alpha = 0.1\ ，\ \gamma=1$
+- 小老鼠探索环境采用随机动作：向左移动
+- 吃到奶酪，得到奖励 $R_{t+1}=1$
+
+![[pic-20250315101034037.png]]
+
+现在更新 $V(S_{0})$，由初始化知 $V(S_{1})=0$：
+
+$$
+\begin{aligned}
+v(s_{0})_{new} & = V(S_{0}) + \alpha \cdot \left[R_{1} + \gamma\cdot V(S_{1}) - V(S_{0}) \right] \\
+& = 0 + 0.1 \times \left(1+1\times0-0\right) \\
+& = 0.1
+\end{aligned}
+$$
+
+更新完 state 0 后，继续游戏，更新 state 1……
+
+## 总结
+
+$$
+V(S_{t}) \leftarrow V(S_{t}) + \alpha \cdot \left[\textcolor{red}{G_{t}} - V(S_{t})\right]
+\tag{Monte Carlo}
+$$
+$$
+V(S_{t}) \leftarrow V(S_{t}) + \alpha \cdot \left[\underbrace{\textcolor{red}{R_{t+1} + \gamma \cdot V(S_{t+1})}}_{TD \ \text{-} \ Target}- V(S_{t})\right]
+\tag{TD(0) Learning}
+$$
+
+-  $G_{t}$ 是每个 episode 得到的真实回报
+- $TD\ \text{-} \ Target$ 用估计值代替还没得到的 $G_{t}$
