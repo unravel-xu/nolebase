@@ -44,3 +44,17 @@ Q-function 中的“Q”来源于“Quality”，指某个 action 在某个 stat
 - 训练完成后，我们得到一个最优 Q-function，这也意味着我们得到一个最优 Q-table
 - 如果我们得到了最优 Q-function，我们就知道在每种 state 下应该选取什么 action，也就得到了最优 policy
 
+![[pic-20250315150236402.png]]
+
+一开始 Q-table 被初始化为任意值（大多数情况下，我们将其初始化为 0），这时 Q-table 没有什么用，但随着 Agent 探索环境不断更新 Q-table，它会给我们越来越接近最优策略的近似值
+
+![[pic-20250315150753943.png]]
+
+现在我们已经了解了什么是 Q-Learning、Q-functions、Q-tables，下面让我们深入学习 Q-Learning 算法：
+
+## Q-Learning 算法
+
+下图是 Q-Learning 算法的伪代码：
+
+![[pic-20250315152851572.png]]
+
