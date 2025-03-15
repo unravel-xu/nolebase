@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Q-Learning 实例"
+              "title": "Q-Learning 回顾"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Q-Learning 实例 的反向链接列表"
+              "title": "Q-Learning 回顾 的反向链接列表"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
+                "file": "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Q-Learning 实例 的大纲"
+              "title": "Q-Learning 回顾 的大纲"
             }
           },
           {
@@ -182,19 +182,19 @@
   },
   "active": "97b3090b3b0a513f",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
+    "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315225716547.png",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315225625389.png",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315225531393.png",
+    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315224002800.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315223222539.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315223024751.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315221715732.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315220528183.png",
-    "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315182457831.png",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315174525628.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315174423463.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315161802202.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315161213404.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315160844307.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315160657227.png",
     "AI/DRL/Deep RL Course/UNIT2/Bellman 方程.md",
     "AI/DRL/Deep RL Course/UNIT2/中期回顾.md",
     "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
