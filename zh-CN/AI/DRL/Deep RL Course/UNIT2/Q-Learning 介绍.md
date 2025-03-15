@@ -31,3 +31,16 @@ Q-function 中的“Q”来源于“Quality”，指某个 action 在某个 stat
 
 ![[pic-20250315130247381.png]]
 
+可以看到，初始状态下采取向上的动作价值为 0（初始态-向上）
+
+![[pic-20250315143707912.png]]
+
+因此，给定一个 action 和 state，Q-function 会在 Q-table 中搜索并输出value（Q-value）
+
+总结下 Q-Learning 算法：
+
+- 训练一个 Q-function（一个 action-value 函数），其内部是一个包含所有 state-action pair 的 Q-table
+- 当给定一个 state 和 action，Q-function 会从 Q-table 中搜索找到对应的 Q-value
+- 训练完成后，我们得到一个最优 Q-function，这也意味着我们得到一个最优 Q-table
+- 如果我们得到了最优 Q-function，我们就知道在每种 state 下应该选取什么 action，也就得到了最优 policy
+
