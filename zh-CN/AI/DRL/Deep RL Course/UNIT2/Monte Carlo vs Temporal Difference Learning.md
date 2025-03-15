@@ -52,8 +52,22 @@ G_{t=0} & = R_{t+1} + R_{t+2} + R_{t+3} + \dots \\
 & = 3
 \end{aligned}
 $$
+
+初始时，$V(S_{0}) = 0$
+
+$$
+\begin{aligned}
+V(S_{0})_{new} & = V(S_{0}) + \alpha \cdot \left[G_{0}-V(S_{0})\right] \\
+& = 0 + 0.1 \times (3-0) \\
+& = 0.3
+\end{aligned}
 $$
 
-V(S_{0})_{new} = V(S_{0}) + \alpha \cdot \left[G_{0}-V(S_{0})\right]
-$$
+经过第一个 episode 后，$V(S_{0})\to0.3$
+
+## Temporal Difference Learning：在每一步都进行学习
+
+时序差分学习只需一次交互（一步）得到 $S_{t+1}$ 后，就可以形成一个 TD 目标，并用 $R_{t+1}$ 和 $\gamma \cdot V(S_{t+1})$ 更新 $V(S_{t})$
+
+TD 算法的思想是在每一步都对 $V(S_{t})$ 进行更新
 
