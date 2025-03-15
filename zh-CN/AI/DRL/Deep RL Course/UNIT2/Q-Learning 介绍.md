@@ -70,6 +70,28 @@ Q-function 中的“Q”来源于“Quality”，指某个 action 在某个 stat
 
 epsilon-greedy 策略是一种平衡 exploration/exploitation 的策略
 
-先给 epsilon 赋一个值，例如：$\epsilon=1.0$：
+先给 epsilon 赋一个初值，例如：$\epsilon=1.0$：
 - 智能体将以 $\epsilon$ 的概率进行探索（exploration），此时智能体将随机选择 action
 - 智能体将以 $1-\epsilon$ 的概率进行利用（exploitation），此时智能体将选择有最大 state-action pair 值的 action
+
+在训练开始时，由于 $\epsilon$ 很大，所以智能体进行探索的概率很大，也就是大部分时间都在“探索”。随着训练的进行，Q-table 估计的 value 越来越准，此时逐渐降低 $\epsilon$ 的值，智能体更多地进行“利用”
+
+![[pic-20250315160657227.png]]
+
+### 第三步：智能体与环境交互
+
+智能体执行动作 $A_{t}$，得到奖励 $R_{t+1}$ 和下一个状态 $S_{t+1}$
+
+![[pic-20250315160844307.png]]
+
+### 第四步：更新
+
+前面我们说到 Q-Learning 中使用 TD Learning 单步更新，智能体在与环境交互一次后就更新 policy 或value-function（这取决于我们用的是 value-based 的方法还是 policy-based 的方法）
+
+![[pic-20250315161213404.png]]
+
+因此，用 $Q\left(S_{t}, A_{t}\right)$ 替代上式中的 $V(S_{t})$ 就得到了 $Q\left(S_{t}, A_{t}\right)$ 的更新公式：
+
+![[pic-20250315161802202.png]]
+
+特别的是
