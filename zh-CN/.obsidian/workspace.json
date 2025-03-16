@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/总结.md",
+                "file": "AI/DRL/Deep RL Course/UNIT3/介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "总结"
+              "title": "介绍"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/总结.md",
+                "file": "AI/DRL/Deep RL Course/UNIT3/介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "总结 的反向链接列表"
+              "title": "介绍 的反向链接列表"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT2/总结.md",
+                "file": "AI/DRL/Deep RL Course/UNIT3/介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "总结 的大纲"
+              "title": "介绍 的大纲"
             }
           },
           {
@@ -196,8 +196,11 @@
   },
   "active": "5ebc8fb8be1a7ca2",
   "lastOpenFiles": [
-    "AI/DRL/Deep RL Course/UNIT2/动手实验.md",
     "AI/DRL/Deep RL Course/UNIT2/总结.md",
+    "AI/DRL/Deep RL Course/UNIT3/介绍.md",
+    "AI/DRL/Deep RL Course/UNIT3",
+    "AI/DRL/Deep RL Course/UNIT2/img/atari-envs.gif",
+    "AI/DRL/Deep RL Course/UNIT2/动手实验.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316193453033.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316191422019.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316190719429.png",
@@ -208,7 +211,6 @@
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316161256840.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316155704236.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316154553437.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316151930410.png",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
     "AI/DRL/Deep RL Course/UNIT2/术语表.md",
@@ -236,12 +238,10 @@
     "toc.md",
     "DRL/Deep.md",
     "DRL",
-    "AI/DRL/Deep RL Course/UNIT1/小结.md",
     "data/toc.data.ts.timestamp-1741777790455-cb288ae86b9cf.mjs",
     "data/toc.data.ts.timestamp-1741772690620-eb65b4e1bb467.mjs",
     "data/toc.data.ts.timestamp-1741771005202-16ebc6e7a28af.mjs",
     "AI/DRL/Deep RL Course/BONUS UNIT1",
-    "AI/DRL/Deep RL Course/UNIT1/img",
     "未命名.canvas"
   ]
 }

@@ -159,6 +159,22 @@ export default defineConfig({
             { text: '强化学习框架', link: '/zh-CN/AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy' },
           ]
         },
+        {
+          text: 'UNIT2. Q-Learning 算法',
+          collapsed: true,
+          items: [
+            { text: '介绍', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/介绍' },
+            { text: '两类value-based的方法', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md' },
+            { text: 'Bellman 方程', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/Bellman 方程' },
+            { text: 'Monte Carlo vs Temporal Difference Learning', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning' },
+            { text: '中期回顾', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/中期回顾' },
+            { text: 'Q-Learning 介绍', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍' },
+            { text: 'Q-Learning 实例', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例' },
+            { text: 'Q-Learning 回顾', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾' },
+            { text: '动手实验', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/动手实验' },
+            { text: '总结', link: '/zh-CN/AI/DRL/Deep RL Course/UNIT2/总结' },
+          ]
+        },
       ]
     },
     //   calculateSidebarWithDefaultOpen([
