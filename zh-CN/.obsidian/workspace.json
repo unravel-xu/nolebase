@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2b1232ac4d5b05cd",
+        "id": "68c86f0521ace5d2",
         "type": "tabs",
         "children": [
           {
-            "id": "97b3090b3b0a513f",
+            "id": "3c2d8bbbf77499ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97b3090b3b0a513f",
+  "active": "3c2d8bbbf77499ed",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/UNIT2/动手实验.md",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316105549771.png",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
-    "AI/DRL/Deep RL Course/UNIT2/动手实验.md",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
     "AI/DRL/Deep RL Course/UNIT2/术语表.md",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 介绍.md",
@@ -197,7 +197,6 @@
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315223222539.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315223024751.png",
     "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315221715732.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250315220528183.png",
     "AI/DRL/Deep RL Course/UNIT2/Bellman 方程.md",
     "AI/DRL/Deep RL Course/UNIT2/中期回顾.md",
     "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
