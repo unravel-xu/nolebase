@@ -12,4 +12,6 @@
 - FrozenLake，共有 16 个状态
 - Taxi-v3，共有 500 个状态
 
-但我们今天要训练 Agent 学习玩太空入侵者（Space Invaders），游戏的每一帧都是一个状态，所以总的状态空间非常大
+但我们今天要训练 Agent 学习玩太空入侵者（Space Invaders），游戏的每一帧都作为一个状态输入，总的状态空间非常大
+
+[Nikita Melkozerov](https://twitter.com/meln1k) 说过，雅达利游戏单帧图像由 $210\times160$ 个像素组成，由于图像是彩色的（RGB），因此每个图像有 3 个通道
