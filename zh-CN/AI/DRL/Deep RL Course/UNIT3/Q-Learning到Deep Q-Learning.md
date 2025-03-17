@@ -14,4 +14,5 @@
 
 但我们今天要训练 Agent 学习玩太空入侵者（Space Invaders），游戏的每一帧都作为一个状态输入，总的状态空间非常大
 
-[Nikita Melkozerov](https://twitter.com/meln1k) 说过，雅达利游戏单帧图像由 $210\times160$ 个像素组成，由于图像是彩色的（RGB），因此每个图像有 3 个通道
+[Nikita Melkozerov](https://twitter.com/meln1k) 说过，雅达利游戏单帧图像由 $210\times160$ 个像素组成，由于图像是彩色的（RGB），因此每个图像有 3 个通道，每个通道各有 256 级亮度。每个像素共 $256\times256\times256 = 256^{3}$ 种可能，所有可能的帧共 $256^{3\times210\times160}$，也就是说可能的 observations 有 $256^{100800}$ 种
+
