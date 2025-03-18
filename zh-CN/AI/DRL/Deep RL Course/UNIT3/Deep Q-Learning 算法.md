@@ -13,4 +13,18 @@ Deep Q-Learning 中，我们创建一个 loss function 衡量 Q-value 预测值�
 ![[pic-20250318091123070.png]]
 
 Deep Q-Learning 训练算法有两个阶段：
-- 采样（Sampling）：我们执行动作并存储观测
+- 采样（Sampling）：我们执行动作，并将观察到的经验元组（状态、动作、奖励、下一状态）存储在**回放内存 (Replay Memory)** 中
+- 训练（Training）：从回放内存中随机选择一小批元组，利用这批数据通过梯度下降更新
+
+![[pic-20250318093005524.png]]
+
+与 Q-Learning 相比，这还不是唯一的区别。Deep Q-Learning 的训练可能会不稳定，主要原因在于 Deep Q-Learning 结合了非线性 Q-value 函数（神经网络）和自举法（bootstrapping）（即我们用现有的估计值来更新目标，而不是使用实际的完整回报）
+
+为了帮助稳定训练，我们采用三种不同的解决方案：
+- 经验回放（Experience Replay）：可以更高效地利用经验数据
+- 固定 Q 目标（Fixed Q-Target）：稳定训练过程
+- 双深度 Q-Learning（Double Deep Q-Learning）：解决 Q-value 估计值偏高的问题
+
+### 经验回放
+
+为什么我们要创建
