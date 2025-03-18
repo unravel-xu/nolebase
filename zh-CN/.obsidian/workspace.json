@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT3/Deep Q-Network.md",
+                "file": "AI/DRL/Deep RL Course/UNIT3/Deep Q-Learning 算法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep Q-Network"
+              "title": "Deep Q-Learning 算法"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT3/Deep Q-Network.md",
+                "file": "AI/DRL/Deep RL Course/UNIT3/Deep Q-Learning 算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Deep Q-Network 的反向链接列表"
+              "title": "Deep Q-Learning 算法 的反向链接列表"
             }
           },
           {
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/DRL/Deep RL Course/UNIT3/Deep Q-Network.md",
+                "file": "AI/DRL/Deep RL Course/UNIT3/Deep Q-Learning 算法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Deep Q-Network 的大纲"
+              "title": "Deep Q-Learning 算法 的大纲"
             }
           },
           {
@@ -182,12 +183,14 @@
   },
   "active": "80e09c6d21fd7aeb",
   "lastOpenFiles": [
+    "AI/DRL/Deep RL Course/UNIT3/Deep Q-Network.md",
+    "AI/DRL/Deep RL Course/UNIT3/Deep Q-Learning 算法.md",
+    "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317235905929.png",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317233845117.png",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317233728093.png",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317233307012.png",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317204149456.png",
     "AI/DRL/Deep RL Course/UNIT3/Q-Learning到Deep Q-Learning.md",
-    "AI/DRL/Deep RL Course/UNIT3/Deep Q-Network.md",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317144403167.png",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317143118542.png",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250317143532694.png",
@@ -198,8 +201,6 @@
     "AI/DRL/Deep RL Course/UNIT3",
     "AI/DRL/Deep RL Course/UNIT2/img/atari-envs.gif",
     "AI/DRL/Deep RL Course/UNIT2/动手实验.md",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316193453033.png",
-    "AI/DRL/Deep RL Course/UNIT2/img/pic-20250316191422019.png",
     "AI/DRL/Deep RL Course/BONUS UNIT1/训练 Huggy.md",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 回顾.md",
     "AI/DRL/Deep RL Course/UNIT2/Q-Learning 实例.md",
