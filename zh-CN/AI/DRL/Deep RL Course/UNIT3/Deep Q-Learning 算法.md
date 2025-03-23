@@ -29,5 +29,4 @@ Deep Q-Learning 训练算法有两个阶段：
 
 为什么我们要创建一个 replay memory？经验回放在 Deep Q-Learning 中有两个作用：
 
-1. 在训练期间更有效的利用经验：
-通常
+1. 在训练期间更有效的利用经验。通常在 online reinforcement learning 中，agent 使用每回合交互得到的经验更新参数，但造成了
