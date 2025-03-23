@@ -25,6 +25,9 @@ Deep Q-Learning 训练算法有两个阶段：
 - 固定 Q 目标（Fixed Q-Target）：稳定训练过程
 - 双深度 Q-Learning（Double Deep Q-Learning）：解决 Q-value 估计值偏高的问题
 
-### 经验回放
+### 经验回放（Experience Replay）
 
-为什么我们要创建
+为什么我们要创建一个 replay memory？经验回放在 Deep Q-Learning 中有两个作用：
+
+1. 在训练期间更有效的利用经验：
+通常
