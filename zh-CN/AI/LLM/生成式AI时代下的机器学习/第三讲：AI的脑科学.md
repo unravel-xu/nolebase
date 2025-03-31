@@ -35,11 +35,25 @@
 
 人类脑科学中，也虚构过单一神经元负责一个任务的概念：[祖母神经元](https://zhuanlan.zhihu.com/p/92301976)
 
-显然，这都是理想情况，实际中一件事情可能有很多神经元共同管理
+### 神经元和任务的关系
+
+显然，上述是理想情况，实际中一件事情可能由很多神经元共同管理
 
 在论文 [What does the Knowledge Neuron Thesis Have to do with Knowledge?](https://arxiv.org/abs/2405.02421) 中发现 GPT2 的某一层神经元控制模型输出文法的单复数
 
 ![[pic-20250331195611564.png]]
 
-论文中使用均值替代模拟ch
+论文中使用梯度均值替代神经元，发现 this、that、these、those 输出概率变化
+
+虽然“擦除”神经元可以改变输出概率，但整个模型的最终输出多数情况下不会发生变化：
+
+![[pic-20250331200412870.png]]
+
+如图，经过 post-edit，these、those 概率下降，this、that 概率上升，但 these、those 下降后的输出概率仍大于 this、that 的输出概率
+
+一件事情可能由很多神经元共同管理，同样一个神经元也可能参与管理多件事情
+
+[monosemantic-features](https://transformer-circuits.pub/2023/monosemantic-features/vis/a-neurons.html) 可视化了每个神经元参与的输出
+
+或许一个任务由一组神经元完成，不同的任务会共用神经元，这也是为什么 LLM 可以用有限的神经元完成多类任务
 
