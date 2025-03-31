@@ -55,5 +55,7 @@
 
 [monosemantic-features](https://transformer-circuits.pub/2023/monosemantic-features/vis/a-neurons.html) 可视化了每个神经元参与的输出
 
-或许一个任务由一组神经元完成，不同的任务会共用神经元，这也是为什么 LLM 可以用有限的神经元完成多类任务
+或许一个任务由一组神经元完成，不同的任务会共用神经元，这也是为什么 LLM 可以用有限的神经元完成所有任务
+
+## 一层神经元的功能
 
