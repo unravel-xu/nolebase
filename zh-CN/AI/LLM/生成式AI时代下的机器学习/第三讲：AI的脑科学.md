@@ -29,3 +29,6 @@
 
 [Multimodal Neurons in Artificial Neural Networks](https://distill.pub/2021/multimodal-neurons/)
 
+![[pic-20250331181555488.png]]
+
+横坐标表示神经元被启动的程度，纵坐标表示
