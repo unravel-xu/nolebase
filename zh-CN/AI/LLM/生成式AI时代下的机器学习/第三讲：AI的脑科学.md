@@ -37,3 +37,9 @@
 
 显然，这都是理想情况，实际中一件事情可能有很多神经元共同管理
 
+在论文 [What does the Knowledge Neuron Thesis Have to do with Knowledge?](https://arxiv.org/abs/2405.02421) 中发现 GPT2 的某一层神经元控制模型输出文法的单复数
+
+![[pic-20250331195611564.png]]
+
+论文中使用均值替代模拟ch
+
