@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM/大模型理论基础/引言.md",
+                "file": "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "引言"
+              "title": "第三讲：AI的脑科学"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/LLM/大模型理论基础/引言.md",
+                "file": "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "引言 的反向链接列表"
+              "title": "第三讲：AI的脑科学 的反向链接列表"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/LLM/大模型理论基础/引言.md",
+                "file": "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "引言 的大纲"
+              "title": "第三讲：AI的脑科学 的大纲"
             }
           },
           {
@@ -180,9 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd4bcebd4a84e2f8",
+  "active": "7fae51cf20800378",
   "lastOpenFiles": [
-    "AI/LLM/未命名",
+    "AI/LLM/生成式AI时代下的机器学习/引言.md",
+    "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
+    "AI/LLM/大模型理论基础/引言.md",
+    "AI/LLM/生成式AI时代下的机器学习",
     "AI/DRL/Deep RL Course/UNIT3/Deep Q-Learning 算法.md",
     "AI/LLM/论文/DeepSeek-R1.md",
     "AI/DRL/Deep RL Course/UNIT3/img/pic-20250323111626862.png",
@@ -220,14 +223,11 @@
     "AI/DRL/Deep RL Course/UNIT2",
     "AI/DRL/Deep RL Course/BONUS UNIT1/Huggy 介绍.md",
     "AI/DRL/Deep RL Course/UNIT1/介绍.md",
-    "AI/DRL/Deep RL Course/UNIT1/训练第一个 DRL Agent.md",
-    "AI/DRL/Deep RL Course/UNIT1/Quiz&总结&额外阅读材料.md",
     "DRL/Deep-RL-Course",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img",
     "DRL",
     "data/toc.data.ts.timestamp-1741777790455-cb288ae86b9cf.mjs",
     "data/toc.data.ts.timestamp-1741772690620-eb65b4e1bb467.mjs",
-    "data/toc.data.ts.timestamp-1741771005202-16ebc6e7a28af.mjs",
     "未命名.canvas"
   ]
 }
