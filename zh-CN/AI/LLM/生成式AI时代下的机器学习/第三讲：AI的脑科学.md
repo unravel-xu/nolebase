@@ -95,7 +95,7 @@
 
 操作功能向量有很多名字：Representation Engineering，Activation Engineering，Activation Steering……
 
- 在论文 [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/abs/2312.06681) 中，研究人员找到了 Sycophancy Vector（谄媚向量）
+在论文 [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/abs/2312.06681) 中，研究人员找到了 Sycophancy Vector（谄媚向量）
 
 ![[pic-20250401155250113.png]]
 
@@ -111,4 +111,9 @@
 
 [Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
 
-提出假设：当神经网络要表达的 feature 数量大于神经元数量，
+提出假设：当神经网络要表达的 feature 数量大于神经元数量，则 feature 会通过神经元的线性组合表达。如果我们将每个 feature 看作神经元上的向量，那么 feature 的集合就形成了网络中激活神经元的过完备线性基（overcomplete linear basis，也就是基元素的个数比维数要大
+
+![[pic-20250401175731641.png]]
+
+我们希望通过 h 向量求解出 v 向量
+

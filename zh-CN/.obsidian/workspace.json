@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a47c8dc5aa8ca90",
+        "id": "666aee66fbd22f56",
         "type": "tabs",
         "children": [
           {
-            "id": "7fae51cf20800378",
+            "id": "247ecfc33995d9c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7fae51cf20800378",
+  "active": "247ecfc33995d9c8",
   "lastOpenFiles": [
+    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401175731641.png",
+    "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401155250113.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401154737112.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401153258921.png",
@@ -192,10 +194,8 @@
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401115441944.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250331200412870.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250331195611564.png",
-    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250331181555488.png",
     "AI/LLM/生成式AI时代下的机器学习/img",
     "AI/LLM/生成式AI时代下的机器学习/引言.md",
-    "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/生成式AI时代下的机器学习",
     "AI/DRL/Deep RL Course/UNIT3/Deep Q-Learning 算法.md",
