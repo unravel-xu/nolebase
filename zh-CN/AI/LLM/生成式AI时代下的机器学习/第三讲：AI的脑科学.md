@@ -79,3 +79,8 @@
 
 我们将拒绝向量加到某层正常向量中，观察本不应被拒绝的输入是否会被拒绝
 
+在论文 [Refusal in Language Models Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717) 中：
+
+![[pic-20250401123643149.png]]
+
+红色部分是加入拒绝向量后，模型的输出
