@@ -131,3 +131,11 @@ Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monoseman
 
 ## 一群神经元的功能
 
+[Dissecting Recall of Factual Associations in Auto-Regressive Language Models](https://arxiv.org/abs/2304.14767)
+
+![[pic-20250401190653015.png]]
+
+[A Mechanistic Interpretation of Arithmetic Reasoning in Language Models using Causal Mediation Analysis](https://arxiv.org/abs/2305.15054)
+
+![[pic-20250401190743362.png]]
+
