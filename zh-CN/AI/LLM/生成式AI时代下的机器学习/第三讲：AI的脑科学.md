@@ -123,5 +123,11 @@
 
 Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/)
 
+![[pic-20250401185247682.png]]
 
+上图是编号 31164353 的功能向量，负责输出关于金门大桥的内容
+
+ 论文 [Gemma Scope: Open Sparse Autoencoders Everywhere All At Once on Gemma 2](https://arxiv.org/abs/2408.05147) 分析了 Gemma 2 的功能向量（[可视化分析](https://www.neuronpedia.org/gemma-scope#analyze)）
+
+## 一群神经元的功能
 
