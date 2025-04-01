@@ -89,4 +89,22 @@
 
 ![[pic-20250401153258921.png]]
 
-shi j
+实际的处理方法有很多种，“直接减去”是最简单的方法。如果减去后，本该被拒绝的输入不再被拒绝，同样可以证明功能向量的有效性
+
+![[pic-20250401154737112.png]]
+
+操作功能向量有很多名字：Representation Engineering，Activation Engineering，Activation Steering……
+
+ 在论文 [Steering Llama 2 via Contrastive Activation Addition](https://arxiv.org/abs/2312.06681) 中，研究人员找到了 Sycophancy Vector（谄媚向量）
+
+![[pic-20250401155250113.png]]
+
+更多的论文：
+
+- [TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space](https://arxiv.org/abs/2402.17811)
+- [Inference-Time Intervention: Eliciting Truthful Answers from a Language Model](https://arxiv.org/abs/2306.03341)
+- [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213)
+- [In-Context Learning Creates Task Vectors](https://arxiv.org/abs/2310.15916)
+- [In-context Vectors: Making In Context Learning More Effective and Controllable Through Latent Space Steering](https://arxiv.org/abs/2311.06668)
+
+能否自动把某一层的所有功能向量
