@@ -107,4 +107,5 @@
 - [In-Context Learning Creates Task Vectors](https://arxiv.org/abs/2310.15916)
 - [In-context Vectors: Making In Context Learning More Effective and Controllable Through Latent Space Steering](https://arxiv.org/abs/2311.06668)
 
-能否自动把某一层的所有功能向量
+能否自动把某一层的所有功能向量都找出来呢？
+
