@@ -115,5 +115,13 @@
 
 ![[pic-20250401175731641.png]]
 
-我们希望通过 h 向量求解出 v 向量
+我们希望通过 h 向量求解出 v 向量，如果不加限制，显然会有无穷多解。于是我们添加如下两个限制条件：
+1. 我们要保证误差向量尽可能的小
+2. 我们要保证每个 h 向量都用尽可能少的 v 向量表达
+
+![[pic-20250401181005565.png]]
+
+Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet](https://transformer-circuits.pub/2024/scaling-monosemanticity/)
+
+
 
