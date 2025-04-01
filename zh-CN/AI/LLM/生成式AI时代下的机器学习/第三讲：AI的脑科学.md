@@ -109,3 +109,6 @@
 
 能否自动把某一层的所有功能向量都找出来呢？
 
+[Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
+
+提出假设：当神经网络要表达的 feature 数量大于神经元数量，
