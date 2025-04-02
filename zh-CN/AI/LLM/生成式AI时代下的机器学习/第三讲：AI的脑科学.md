@@ -161,4 +161,18 @@ Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monoseman
 
 ![[pic-20250402160350037.png]]
 
-当谓语发生变化shi
+当谓语发生变化，虽然还是 Linear Function，但此时参数应该发生变化：$W_{l},b_{l}\to W_{t}, b_{h}$
+
+上述假设 Linear Function 可以代替语言模型的 layer，下面就需要验证这种假设是否成立：
+
+这也是判断 Linear Function 的 faithfulness，先用一部分数据作为训练资料训练出 Linear Function，再用剩余数据作为测试资料查看训练好的 Linear Function 和原语言模型的输出是否相同
+
+![[pic-20250402161304575.png]]
+
+最终结果显示一部分关系可以用 Linear Function 代替，例如 occupation gender 的 faithfulness 近乎 100%
+
+既然一些关系可以用 Linear Function 代替，我们能否充分利用 Linear Function 的性质呢？
+
+![[pic-20250402162642963.png]]
+
+例如，Linear Function 可以求反函数，所以当我们改变模型输出结果时（如上图，将 Taipei 改为Kao hsi ung），可以反推出输入的 $x'$，进而求出 $\Delta x = x' - x$，
