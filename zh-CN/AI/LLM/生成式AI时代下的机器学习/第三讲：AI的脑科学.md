@@ -207,4 +207,17 @@ kaiming 的经典论文 [Deep Residual Learning for Image Recognition](https://a
 
 ![[pic-20250402200137720.png]]
 
-FFN 中某个神经元是前一层的神经元加权和
+FFN 中某个神经元是前一层所有神经元的加权和，如果转变视角：
+
+![[pic-20250402200456460.png]]
+
+前一层的每个神经元参与了后一层每个神经元的计算，前一层的每个神经元就可以视作 attention 中的 key，权重就可以视作 value
+
+论文 [Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space](https://arxiv.org/abs/2203.14680) 就发现这些权重是有意义的：
+
+![[pic-20250402200916751.png]]
+
+既然权重是有意义的，同样我们可以修改这些权重来影响语言模型的输出：
+
+![[pic-20250402201248641.png]]
+
