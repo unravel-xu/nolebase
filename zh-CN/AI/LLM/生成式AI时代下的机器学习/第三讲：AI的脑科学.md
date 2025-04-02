@@ -221,3 +221,16 @@ FFN 中某个神经元是前一层所有神经元的加权和，如果转变视�
 
 ![[pic-20250402201248641.png]]
 
+Logit Lens 存在致命缺陷：
+1. 一次只能编辑一个 token
+2. LLM 多数情形是根据输入 token 预测输出，也就是说 layer 的输出不代表输入 token 的含义，而可能代表根据输入 token 产生的预测 token
+
+![[pic-20250402215322502.png]]
+
+论文 [Patchscopes: A Unifying Framework for Inspecting Hidden Representations of Language Models](https://arxiv.org/abs/2401.06102) 提出了一个解决方法
+
+论文 [Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries](https://arxiv.org/abs/2406.12775) 借助 Patchscopes 的方法
+
+这两篇论文值得仔细研究，因为通过 Patchscopes 我们可以判断到底数学和
+
+
