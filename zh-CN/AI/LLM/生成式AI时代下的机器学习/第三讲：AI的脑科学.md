@@ -185,5 +185,17 @@ Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monoseman
 
 ![[pic-20250402173022252.png]]
 
-这个思想和 Network Compression 非常接近，区别在于 Network Compression 得到的模型需要在各个任务上和原模型接近，而 Circuit 模型只需在一个简单任务（[IOI 问题](https://zhuanlan.zhihu.com/p/685224484)）上保持一致
+这个思想和 Network Compression 非常接近，区别在于 Network Compression 得到的模型需要在各个任务上和原模型接近，而 Circuit 得到的模型只需在一个简单任务（[IOI 问题](https://zhuanlan.zhihu.com/p/685224484)）上保持接近
+
+## 让语言模型直接说出想法
+
+kaiming 的经典论文 [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) 中提出了 resnet：
+
+![[pic-20250402174123333.png]]
+
+这样看，似乎没什么特别的，不过是将 layer 前后的向量做了加法，但换个角度：
+
+![[pic-20250402174740560.png]]
+
+输入直通输出（residual stream），每经过一个 Layer 就会有一些信息加到 residual stream 中，既然最后输出经过 Unembedding 可以得到 token 概率分布，而中间层相比于最后一层只是少了后添加的信息，那同样我们可以对中间层做 Unembedding 得到概率分布（称为Logit Lens）
 
