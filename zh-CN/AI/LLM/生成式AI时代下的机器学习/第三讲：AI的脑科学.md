@@ -199,3 +199,7 @@ kaiming 的经典论文 [Deep Residual Learning for Image Recognition](https://a
 
 输入直通输出（residual stream），每经过一个 Layer 就会有一些信息加到 residual stream 中，既然最后输出经过 Unembedding 可以得到 token 概率分布，而中间层相比于最后一层只是少了后添加的信息，那同样我们可以对中间层做 Unembedding 得到概率分布（称为Logit Lens）
 
+![[pic-20250402183805098.png]]
+
+在论文 [Do Llamas Work in English? On the Latent Language of Multilingual Transformers](https://arxiv.org/abs/2402.10588) 中，发现 Llama 2 对于中文回答法语问题是先将法语转为英语思考，再将英语转为中文
+
