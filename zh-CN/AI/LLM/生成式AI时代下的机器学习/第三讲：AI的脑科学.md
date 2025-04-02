@@ -145,4 +145,20 @@ Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monoseman
 
 例如语言模型是对人类真正语言的简化，**语言模型的模型**是对语言模型的简化：
 
+![[pic-20250402153445460.png]]
 
+模型可以突出重点，降低理解门槛，使我们更容易抓住事物的本质
+
+语言模型的模型的特点：
+1. 要比语言模型简单
+2. 保持原语言模型的特征（faithfulness）
+
+论文 [Linearity of Relation Decoding in Transformer Language Models](https://arxiv.org/abs/2308.09124) 中，提出了用一个线性函数代替原语言模型部分层的输出：
+
+![[pic-20250402155105863.png]]
+
+观察图中红色部分，输入 The Taipei 101 is located in，假设用 Linear Function 就可以表达 “is located in” 关系，那么主语无论是 The Taipei 101 还是 The Space Needle，只要谓语不变，我们就认为 Linear Function 参数不变
+
+![[pic-20250402160350037.png]]
+
+当谓语发生变化shi
