@@ -203,3 +203,8 @@ kaiming 的经典论文 [Deep Residual Learning for Image Recognition](https://a
 
 在论文 [Do Llamas Work in English? On the Latent Language of Multilingual Transformers](https://arxiv.org/abs/2402.10588) 中，发现 Llama 2 对于中文回答法语问题是先将法语转为英语思考，再将英语转为中文
 
+ 论文 [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913) 给出了一种新的视角理解 FFN
+
+![[pic-20250402200137720.png]]
+
+FFN 中某个神经元是前一层的神经元加权和
