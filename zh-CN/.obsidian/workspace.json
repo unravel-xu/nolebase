@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "666aee66fbd22f56",
+        "id": "bbc1a3613e962bc2",
         "type": "tabs",
         "children": [
           {
-            "id": "247ecfc33995d9c8",
+            "id": "6840f64534db436d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "247ecfc33995d9c8",
+  "active": "6840f64534db436d",
   "lastOpenFiles": [
+    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402173022252.png",
+    "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402162642963.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402161304575.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402160350037.png",
@@ -192,8 +194,6 @@
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401185247682.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401181005565.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401175731641.png",
-    "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
-    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250401155250113.png",
     "AI/LLM/生成式AI时代下的机器学习/img",
     "AI/LLM/生成式AI时代下的机器学习/引言.md",
     "AI/LLM/大模型理论基础/引言.md",

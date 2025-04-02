@@ -175,4 +175,15 @@ Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monoseman
 
 ![[pic-20250402162642963.png]]
 
-例如，Linear Function 可以求反函数，所以当我们改变模型输出结果时（如上图，将 Taipei 改为 Kaohsiung），可以反推出输入的 $x'$，进而求出 $\Delta x = x' - x$，
+例如，Linear Function 可以求反函数，所以当我们改变模型输出结果时（如上图，将 Taipei 改为 Kaohsiung），可以反推出输入的 $x'$，进而求出 $\Delta x = x' - x$
+
+因为我们用 Linear Function 替代原模型的 Layer，所以直接将 $\Delta x$ 加在 Layer 之间，原模型也该改变输出，这样就实现语言模型的编辑
+
+为什么我们采用 Linear Function？实际是我们的猜测，有没有系统化构建语言模型的模型的方法呢？
+
+可以直接对语言模型做 Pruning——不断删掉语言模型的 components，观察 faithfulness 是否变化，直到得到非常精简的模型，多数论文称为 Circuit
+
+![[pic-20250402173022252.png]]
+
+这个思想和 Network Compression 非常接近，区别在于 Network Compression 得到的模型需要在各个任务上和原模型接近，而 Circuit 模型只需在一个简单任务（[IOI 问题](https://zhuanlan.zhihu.com/p/685224484)）上保持一致
+
