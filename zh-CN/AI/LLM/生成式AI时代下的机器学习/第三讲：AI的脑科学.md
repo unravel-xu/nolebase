@@ -175,4 +175,4 @@ Claude 3 团队通过 SAE 求解得到一系列功能向量：[Scaling Monoseman
 
 ![[pic-20250402162642963.png]]
 
-例如，Linear Function 可以求反函数，所以当我们改变模型输出结果时（如上图，将 Taipei 改为Kao hsi ung），可以反推出输入的 $x'$，进而求出 $\Delta x = x' - x$，
+例如，Linear Function 可以求反函数，所以当我们改变模型输出结果时（如上图，将 Taipei 改为 Kaohsiung），可以反推出输入的 $x'$，进而求出 $\Delta x = x' - x$，
