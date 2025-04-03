@@ -231,6 +231,6 @@ Logit Lens 存在致命缺陷：
 
 论文 [Hopping Too Late: Exploring the Limitations of Large Language Models on Multi-Hop Queries](https://arxiv.org/abs/2406.12775) 借助 Patchscopes 的方法
 
-这两篇论文值得仔细研究，因为通过 Patchscopes 我们可以判断到底数学和
+这两篇论文值得仔细研究，因为通过 Patchscopes 我们可以判断数学题和代码题在 LLM 每层含义
 
-
+论文 [Understanding and Patching Compositional Reasoning in LLMs](https://arxiv.org/abs/2402.14328) 似乎也和上述相关
