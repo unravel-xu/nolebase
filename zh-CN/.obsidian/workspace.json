@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
+                "file": "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第三讲：AI的脑科学"
+              "title": "Understanding LLMs from Scratch Using Middle School Math(译)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
+                "file": "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "第三讲：AI的脑科学 的反向链接列表"
+              "title": "Understanding LLMs from Scratch Using Middle School Math(译) 的反向链接列表"
             }
           },
           {
@@ -140,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
+                "file": "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "第三讲：AI的脑科学 的大纲"
+              "title": "Understanding LLMs from Scratch Using Middle School Math(译) 的大纲"
             }
           },
           {
@@ -183,6 +184,8 @@
   "active": "64c0918d90273ba0",
   "lastOpenFiles": [
     "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
+    "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
+    "AI/LLM/杂记",
     "AI/LLM/生成式AI时代下的机器学习/引言.md",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402215322502.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402201248641.png",
@@ -226,7 +229,6 @@
     "DRL/Deep-RL-Course",
     "AI/DRL/Deep RL Course/BONUS UNIT1/img",
     "DRL",
-    "data/toc.data.ts.timestamp-1741777790455-cb288ae86b9cf.mjs",
     "未命名.canvas"
   ]
 }
