@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5,
-    "collapsed": true
+    "width": 401.5
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -183,10 +182,13 @@
   },
   "active": "64c0918d90273ba0",
   "lastOpenFiles": [
+    "AI/LLM/杂记/img/pic-20250409104852610.png",
+    "AI/LLM/杂记/img/pic-20250409104817712.png",
+    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
+    "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
     "AI/LLM/杂记/img/pic-20250408204111995.png",
     "AI/LLM/杂记/img",
     "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
-    "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
     "AI/LLM/杂记",
     "AI/LLM/生成式AI时代下的机器学习/引言.md",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402215322502.png",
@@ -197,8 +199,6 @@
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402183805098.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402174740560.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402174440537.png",
-    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402174123333.png",
-    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402173022252.png",
     "AI/LLM/生成式AI时代下的机器学习/img",
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/生成式AI时代下的机器学习",
@@ -221,7 +221,6 @@
     "AI/DRL/Deep RL Course/UNIT2/Monte Carlo vs Temporal Difference Learning.md",
     "AI/DRL/强化学习极简入门/前言.md",
     "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
-    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/DRL/Deep RL Course/UNIT2/介绍.md",
     "AI/index.md",
     "AI/DRL/Deep RL Course/index.md",
