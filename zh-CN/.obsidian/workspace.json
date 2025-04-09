@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b38207416b81ac67",
+        "id": "dfec7f69f1cef8ab",
         "type": "tabs",
         "children": [
           {
-            "id": "64c0918d90273ba0",
+            "id": "e6738139b8732152",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md"
+                "file": "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-16 15.47.24.excalidraw"
+              "icon": "lucide-file",
+              "title": "Understanding LLMs from Scratch Using Middle School Math(译)"
             }
           }
         ]
@@ -178,13 +180,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "64c0918d90273ba0",
+  "active": "e6738139b8732152",
   "lastOpenFiles": [
+    "AI/LLM/杂记/img/pic-20250409124834874.png",
+    "AI/LLM/杂记/img/pic-20250409124746485.png",
+    "AI/LLM/杂记/img/pic-20250409104817712.png",
+    "AI/LLM/杂记/img/pic-20250409122011629.png",
     "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
     "AI/LLM/杂记/img/pic-20250409120829254.png",
     "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/LLM/杂记/img/pic-20250409104852610.png",
-    "AI/LLM/杂记/img/pic-20250409104817712.png",
     "AI/LLM/杂记/img/pic-20250408204111995.png",
     "AI/LLM/杂记/img",
     "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
@@ -194,8 +199,6 @@
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402201248641.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402200916751.png",
     "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402200456460.png",
-    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402200137720.png",
-    "AI/LLM/生成式AI时代下的机器学习/img/pic-20250402183805098.png",
     "AI/LLM/生成式AI时代下的机器学习/img",
     "AI/LLM/大模型理论基础/引言.md",
     "AI/LLM/生成式AI时代下的机器学习",
