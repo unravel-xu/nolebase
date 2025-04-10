@@ -208,11 +208,18 @@ $$
 \frac{\partial}{\partial \theta_{i}}J\left(\theta_{0},\theta_{1},\dots,\theta_{n}\right)
 $$
 
+其中 $J\left(\theta_{0},\theta_{1},\dots,\theta_{n}\right)$ 表示参数为 $\theta_{0},\theta_{1},\dots,\theta_{n}$ 的神经网络损失函数
+
+
+
 如下，我们进行实例演示，约定我们使用均方误差：
 
 $$
 MSE \ Loss = \frac{1}{N} \sum \left(actual \ value - predicted \ value\right)^2
 $$
+
+### Step5. 重复迭代，逐渐优化模型
+
 
 
 ## 其他参考资料
