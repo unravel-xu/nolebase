@@ -11,12 +11,14 @@
             "id": "e6738139b8732152",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md"
+                "file": "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-02-16 15.47.24.excalidraw"
+              "icon": "lucide-file",
+              "title": "Understanding LLMs from Scratch Using Middle School Math(译)"
             }
           }
         ]
@@ -180,6 +182,7 @@
   },
   "active": "e6738139b8732152",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
     "AI/LLM/学习资源.md",
     "AI/LLM/杂记/img/pic-20250410184745799.png",
@@ -192,7 +195,6 @@
     "AI/LLM/杂记/img/pic-20250409124834874.png",
     "AI/LLM/杂记/img/pic-20250409124746485.png",
     "AI/LLM/杂记/img/pic-20250409104817712.png",
-    "Excalidraw/Drawing 2025-02-16 15.47.24.excalidraw.md",
     "AI/LLM/杂记/img",
     "AI/LLM/生成式AI时代下的机器学习/第三讲：AI的脑科学.md",
     "AI/LLM/杂记",

@@ -232,7 +232,9 @@ $$
 3. **反向传播（Backward Propagation）**：计算损失关于参数(权重与偏置）的梯度
 4. **参数更新（Parameter Update）**：根据梯度下降算法更新训练参数
 
-### 一次迭代实例
+[机器学习：一步步教你理解反向传播方法](https://yongyuan.name/blog/back-propagtion.html)
+
+### 补充说明
 
 
 
