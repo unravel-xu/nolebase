@@ -451,7 +451,7 @@ OpenAI 的 GPT-3 使用 BPE 分词器后，即便面对网络俚语“LOLcats”
 
 ## 自注意力机制（Self-attention）
 
-qweiq
+
 
 ## 其他参考资料
 
