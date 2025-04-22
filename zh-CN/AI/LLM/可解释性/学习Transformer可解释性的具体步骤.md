@@ -14,4 +14,11 @@ Transformer Mechanistic Interpretability 下简称为 Transformer MI，是一个
 
 这篇博文的目标读者是刚接触机制可解释性但想要进一步学习的人——如果您完全不知道什么是机制可解释性，您可以参阅 [this Mech Interp Explainer](https://www.neelnanda.io/glossary)，[Circuits: Zoom In](https://distill.pub/2020/circuits/zoom-in/)，[Chris Olah’s overview post](https://www.lesswrong.com/posts/CzZ6Fch4JSpwCpu6C/interpretability)
 
-## 
+## “不错水平”的标准
+
+下面是我认为"不错的基础知识水平"的标准：
+
+- 扎实掌握机器学习和机制可解释性的关键概念
+- 了解 Transformer 实际运作的机制——了解其组成部分，各个组成部分如何协作，以及如何解释整个系统
+- 熟悉相关工具，例如您可以快速运行一个模型并开展实验
+- 对文献有一个大致了解，知道目前领域的进展和主要的未解决问题的类别——不一定需要深入的知识，但至少有
