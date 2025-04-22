@@ -26,3 +26,4 @@ Transformer Mechanistic Interpretability 下简称为 Transformer MI，是一个
 
 ## 基础知识
 
+[Callum McDougall](https://arena-ch1-transformers.streamlit.app/) 制作了一套关于机制可解释性和 TransformerLens 的优秀教程，包含练习、解答和漂亮的图表。本节在很大程度上是对这些教程的一个注解指南！
