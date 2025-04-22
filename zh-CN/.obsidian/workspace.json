@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/LLM/杂记/LLM架构.md",
+                "file": "AI/LLM/可解释性/学习Transformer可解释性的具体步骤.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM架构"
+              "title": "学习Transformer可解释性的具体步骤"
             }
           }
         ]
@@ -180,11 +180,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd4bcebd4a84e2f8",
+  "active": "e6738139b8732152",
   "lastOpenFiles": [
-    "AI/LLM/可解释性",
     "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
+    "AI/LLM/可解释性/学习Transformer可解释性的具体步骤.md",
     "AI/LLM/杂记/LLM架构.md",
+    "AI/LLM/可解释性",
     "AI/LLM/杂记/img/pic-20250411163425502.png",
     "AI/LLM/杂记/img/pic-20250411125409536.png",
     "AI/LLM/杂记/img/pic-20250411120513566.png",
@@ -227,7 +228,6 @@
     "AI/DRL/Deep RL Course/UNIT2/img",
     "AI/DRL/Deep RL Course/UNIT2",
     "DRL/Deep-RL-Course",
-    "AI/DRL/Deep RL Course/BONUS UNIT1/img",
     "未命名.canvas"
   ]
 }
