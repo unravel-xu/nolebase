@@ -10,4 +10,8 @@ Transformer Mechanistic Interpretability 下简称为 Transformer MI，是一个
 
 这篇博文的目的是提供具体的步骤学习 Transformer 机制可解释性(Transformer MI)的基础知识。我尝试给出一些具体可行且目标明确的建议，您可以根据这些建议适当调整您的学习路径
 
-我对学习 Transformer MI 有一个核心观点：您至少需要花费三分之一的时间编写代码和探索模型内部结构，而不仅仅是阅读论文。机制可解释性的学习是一个反馈循环过程，其中非常重要能力就是能够轻松编写和运行实验。与传统的机器学习不同，在掌握 MI 的基础知识后，您就可以在几分钟内用一个小模型进行简单的实验，而不用等待几小时甚至几天时间。
+我对学习 Transformer MI 有一个核心观点：您至少需要花费三分之一的时间编写代码和探索模型内部结构，而不仅仅是阅读论文。机制可解释性的学习是一个反馈循环过程，其中非常重要能力就是能够轻松编写和运行实验。与传统的机器学习不同，在掌握 MI 的基础知识后，您就可以在几分钟内用一个小模型进行简单的实验，而不用等待几小时甚至几天时间。此外，由于反馈循环非常紧密，我认为阅读学习和进行研究之间没有明显的区别。如果您想深入理解一篇论文，就应该动手尝试，并检验论文的结论是否正确
+
+这篇博文的目标读者是刚接触机制可解释性但想要进一步学习的人——如果您完全不知道什么是机制可解释性，您可以参阅 [this Mech Interp Explainer](https://www.neelnanda.io/glossary)，[Circuits: Zoom In](https://distill.pub/2020/circuits/zoom-in/)，[Chris Olah’s overview post](https://www.lesswrong.com/posts/CzZ6Fch4JSpwCpu6C/interpretability)
+
+## 
