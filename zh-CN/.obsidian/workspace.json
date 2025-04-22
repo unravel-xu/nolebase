@@ -180,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6738139b8732152",
+  "active": "fd4bcebd4a84e2f8",
   "lastOpenFiles": [
+    "AI/LLM/可解释性",
     "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
     "AI/LLM/杂记/LLM架构.md",
     "AI/LLM/杂记/img/pic-20250411163425502.png",
@@ -223,7 +224,6 @@
     "AI/DRL/强化学习极简入门/前言.md",
     "AI/DRL/Deep RL Course/UNIT2/两类value-based的方法.md",
     "AI/DRL/Deep RL Course/UNIT2/介绍.md",
-    "AI/index.md",
     "AI/DRL/Deep RL Course/UNIT2/img",
     "AI/DRL/Deep RL Course/UNIT2",
     "DRL/Deep-RL-Course",
