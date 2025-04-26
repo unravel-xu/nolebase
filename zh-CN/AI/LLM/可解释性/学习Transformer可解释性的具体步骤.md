@@ -28,7 +28,7 @@ Transformer Mechanistic Interpretability 下简称为 Transformer MI，是一个
 
 [Callum McDougall](https://arena-ch1-transformers.streamlit.app/) 制作了一套关于机制可解释性和 TransformerLens 的优秀教程，包含练习、解答和图例。本节在很大程度上是对这些教程的一个注解说明！
 
-### 学习机器学习的一般前提
+### 学习机器学习的预备
 
 对机器学习有一个基本的整体理解很重要。此外，熟悉 PyTorch 等机器学习框架对于实际编写代码以及巩固知识也至关重要
 
