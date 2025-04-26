@@ -28,8 +28,10 @@ Transformer Mechanistic Interpretability 下简称为 Transformer MI，是一个
 
 [Callum McDougall](https://arena-ch1-transformers.streamlit.app/) 制作了一套关于机制可解释性和 TransformerLens 的优秀教程，包含练习、解答和图例。本节在很大程度上是对这些教程的一个注解说明！
 
-### 机器学习
+### Learn general Machine Learning prerequisites
 
 对机器学习有一个基本的整体理解很重要。此外，熟悉 PyTorch 等机器学习框架对于实际编写代码以及巩固知识也至关重要
 
-- 资源：阅读
+- Resource：Read [the Barebones Guide to Mechanistic Interpretability Prerequisites](https://www.neelnanda.io/mechanistic-interpretability/prereqs), and learn the pre-reqs you're missing (see step 2 for more on transformers)
+	- Bonus：Read the [machine learning section of the mechanistic interpretability explainer](https://dynalist.io/d/n2ZWtnoYHrU1s4vnFSAQ519J#z=FU_mI4vJX1gBv3X70upDyjnn), and get your head around most of the ideas
+	- Bonus：Request the [ML for Alignment Bootcamp curriculum](https://airtable.com/shrOOfZIZC4zZtAIr) and do the first 4 days - this is the best source for really learning ML I’ve come across, though will take a lot of effort!
