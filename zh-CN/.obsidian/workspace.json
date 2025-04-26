@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "ab58a4d199165d6e",
@@ -180,7 +181,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd4bcebd4a84e2f8",
+  "active": "e6738139b8732152",
   "lastOpenFiles": [
     "AI/LLM/可解释性/学习Transformer可解释性的具体步骤.md",
     "AI/LLM/可解释性/机制可解释性的预备工作.md",
