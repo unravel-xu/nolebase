@@ -24,7 +24,12 @@ Transformer Mechanistic Interpretability 下简称为 Transformer MI，是一个
 - 对文献有一个大致了解，知道目前领域的进展和主要的未解决问题的类别——不一定需要深入的知识，但至少知道目前常用的技术，并清楚去哪里阅读相关的论文来深入学习
 - 了解基础技术，明白哪些证据能可靠的揭示模型内部原理，以及在探究模型时如何着手
 
-## 基础知识
+## 入门学习
 
-[Callum McDougall](https://arena-ch1-transformers.streamlit.app/) 制作了一套关于机制可解释性和 TransformerLens 的优秀教程，包含练习、解答和漂亮的图表。本节在很大程度上是对这些教程的一个注解指南！
+[Callum McDougall](https://arena-ch1-transformers.streamlit.app/) 制作了一套关于机制可解释性和 TransformerLens 的优秀教程，包含练习、解答和图例。本节在很大程度上是对这些教程的一个注解说明！
 
+### 学习机器学习的一般前提
+
+对机器学习有一个基本的整体理解很重要。此外，熟悉 PyTorch 等机器学习框架对于实际编写代码以及巩固知识也至关重要
+
+- 资源：阅读
