@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dfec7f69f1cef8ab",
+        "id": "b80542076e3062ba",
         "type": "tabs",
         "children": [
           {
-            "id": "e6738139b8732152",
+            "id": "855ef9a3d8dfc932",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/LLM/可解释性/机制可解释性的预备工作.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "机制可解释性的预备工作"
+              "title": "新标签页"
             }
           }
         ]
@@ -181,10 +177,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6738139b8732152",
+  "active": "855ef9a3d8dfc932",
   "lastOpenFiles": [
-    "AI/LLM/可解释性/学习Transformer可解释性的具体步骤.md",
     "AI/LLM/可解释性/机制可解释性的预备工作.md",
+    "AI/LLM/可解释性/学习Transformer可解释性的具体步骤.md",
     "AI/LLM/杂记/Understanding LLMs from Scratch Using Middle School Math(译).md",
     "AI/LLM/杂记/LLM架构.md",
     "AI/LLM/可解释性",
